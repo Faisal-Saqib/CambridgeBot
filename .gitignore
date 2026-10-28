@@ -33,3 +33,5 @@ venv/
 **/CMakeFiles/
 CMakeCache.txt
 compile_commands.json
+
+/local-artifacts/
