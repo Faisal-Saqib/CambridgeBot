@@ -1,0 +1,2 @@
+Mode: follow newest ready version
+Live: 25  Selected: 25

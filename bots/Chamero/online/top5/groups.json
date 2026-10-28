@@ -1,0 +1,82 @@
+[
+ {
+  "rank_slot": 1,
+  "team": "Mite",
+  "team_id": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+  "rank": 1,
+  "rating": 2428.1066444001385,
+  "checked_at": "2026-10-28T18:09:23.276262Z",
+  "sides": "a,b,a,b,a",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 26  Selected: 26"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"e27e5c81-927d-4173-a3fd-3a04a399e85d\",\"matchId\":\"3cb0d976-8561-4223-98e3-31f33ef08479\",\"teamName\":\"Mite\"}",
+  "stderr": ""
+ },
+ {
+  "rank_slot": 2,
+  "team": "Intercontinental Fish",
+  "team_id": "1890540d-1ffc-4847-adbf-d0d08772f268",
+  "rank": 2,
+  "rating": 2389.7714551945664,
+  "checked_at": "2026-10-28T18:09:25.666968Z",
+  "sides": "b,a,b,a,b",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 26  Selected: 26"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"a781860e-1e40-4cb3-b3eb-0bfbecc0601d\",\"matchId\":\"ffbafb76-9ba3-4cec-b2b1-96197f691007\",\"teamName\":\"Intercontinental Fish\"}",
+  "stderr": ""
+ },
+ {
+  "rank_slot": 3,
+  "team": "newer team",
+  "team_id": "547efb5b-57e5-4355-8501-3b331f506d62",
+  "rank": 3,
+  "rating": 2358.8511530704445,
+  "checked_at": "2026-10-28T18:09:27.546373Z",
+  "sides": "a,b,a,b,a",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 26  Selected: 26"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"a7a1a432-a073-4831-84e3-08cd59f195d8\",\"matchId\":\"2ce33dc9-2989-488b-87fc-1e64a33ced51\",\"teamName\":\"newer team\"}",
+  "stderr": ""
+ },
+ {
+  "rank_slot": 4,
+  "team": "Ad Astra",
+  "team_id": "de0b1e3c-39fb-473c-8244-61c1133ad612",
+  "rank": 4,
+  "rating": 2346.7163167308267,
+  "checked_at": "2026-10-28T18:09:29.183836Z",
+  "sides": "b,a,b,a,b",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 26  Selected: 26"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"51d35f3c-2fa1-4fff-bfde-ff5a8d14e036\",\"matchId\":\"9823a765-5965-401c-861b-5f2ba1563ba2\",\"teamName\":\"Ad Astra\"}",
+  "stderr": ""
+ },
+ {
+  "rank_slot": 5,
+  "team": "print dont int",
+  "team_id": "d559d741-ac53-411e-bc4e-36b8f3d12d5a",
+  "rank": 5,
+  "rating": 2321.042004207743,
+  "checked_at": "2026-10-28T18:09:30.929264Z",
+  "sides": "a,b,a,b,a",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 26  Selected: 26"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"176b64e3-db99-48c7-9f46-818c77cbac2a\",\"matchId\":\"4fdc8211-3166-4940-82b0-b9b261f2b333\",\"teamName\":\"print dont int\"}",
+  "stderr": ""
+ }
+]

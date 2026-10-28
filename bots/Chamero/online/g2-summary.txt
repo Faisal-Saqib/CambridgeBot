@@ -1,0 +1,12 @@
+g1
+  00the_line   loss    0-1030  deaths 23 kills 0 camp 3k/39k (r200 1k r500 3k) gold 60 rounds 586 faults 0
+  00anvil      loss   84-1005  deaths 20 kills 1 camp 7k/102k (r200 3k r500 4k) gold 395 rounds 1045 faults 0
+  00stampede   loss    0-1120  deaths 45 kills 1 camp 6k/140k (r200 1k r500 2k) gold 1033 rounds 1517 faults 0
+  01starfish   loss   52-1010  deaths 26 kills 4 camp 30k/142k (r200 10k r500 17k) gold 1345 rounds 937 faults 0
+  00expanse    loss  410-1022  deaths  1 kills 0 camp 85k/161k (r200 17k r500 33k) gold 4663 rounds 879 faults 0
+g2
+  00the_line   loss    0-1014  deaths 22 kills 0 camp 2k/34k (r200 1k r500 1k) gold 0 rounds 555 faults 0
+  00anvil      loss   21-1192  deaths 25 kills 0 camp 10k/101k (r200 5k r500 9k) gold 600 rounds 960 faults 0
+  00stampede   loss    0-1120  deaths 37 kills 2 camp 11k/135k (r200 1k r500 2k) gold 1412 rounds 1367 faults 0
+  01starfish   loss   74-1043  deaths 20 kills 2 camp 33k/131k (r200 12k r500 26k) gold 1128 rounds 795 faults 0
+  00expanse    loss  352-1001  deaths  0 kills 0 camp 81k/166k (r200 12k r500 35k) gold 4976 rounds 847 faults 0

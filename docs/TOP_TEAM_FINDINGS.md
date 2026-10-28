@@ -1,5 +1,11 @@
 # Top-team gameplay findings and next experiments
 
+> 2026-10-28 update: the census below was superseded by a full top-20 download —
+> 1,040 ranked summaries across all 20 teams and 70 maps (1,869 team-games).
+> Strategy prevalence ordered by usage: [TOP20_STRATEGY_CENSUS.md](TOP20_STRATEGY_CENSUS.md);
+> per-map behaviour and 10 target points each: [TOP20_MAP_TARGETS.md](TOP20_MAP_TARGETS.md).
+> Raw data, manifest and request logs: `matches/top20-scout/`.
+
 Current instruction: every new unranked challenge must target a team currently ranked 1–20. This supersedes the earlier ±200-rating opponent rule. The previous peer campaign is closed to new requests, with 195 accepted results saved and 35 maps covered against all five peers. Its remaining 31 groups will not be submitted.
 
 The new comparison uses v22 first, then a validated cohesion candidate against the same top-20 opponent submissions, maps, sides and seeds. Initial opponents were Intercontinental Fish (1), print dont int (4), hello (8), NEETCoders (12) and HBH (16). Rank is checked again immediately before each request; an opponent leaving the top 20 is not challenged.
