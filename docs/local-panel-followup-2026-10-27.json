@@ -1,0 +1,66 @@
+{
+  "analysis_date": "2026-10-27",
+  "data_kind": "previously_completed_local_matches",
+  "new_matches_run": 0,
+  "method": "Read each manifest entry; identify the candidate by bot path, resolve its team from bot order, and count the recorded match outcome. Require both sides of all 70 maps per opponent, a statistics file for every entry, unique entries, completed outcomes and complete detailed captures. Sum team submitted gems and diagnostics.botFaults.",
+  "limitations": [
+    "These are local matches, not online matches, and do not satisfy the five-online-match minimum.",
+    "Historical manifests did not store bot source hashes, so their names alone cannot prove a platform submission version.",
+    "Salted titan variants are related opponents, not independent random trials.",
+    "Winning this panel does not by itself establish an improvement against Ascendance."
+  ],
+  "panels": [
+    {
+      "candidate": "apexb3",
+      "source": "matches/panel-apexb3-20261027-222220",
+      "manifest_sha256": "b6efa063329cabd3f089f11c139052cff595f175c9a1cbd1ea233f5899f8b187",
+      "statistics_digest": "d26c6bc91b3b49afd0137f9209ebb673b502ed652e8e5223e31427747bd2ab05",
+      "expected_games": 420,
+      "completed_games": 420,
+      "wins": 224,
+      "losses": 196,
+      "opponents": {
+        "titan": {
+          "games": 140, "wins": 80, "losses": 60,
+          "gems_us": 112763, "gems_them": 106755,
+          "bot_faults_us": 0, "bot_faults_them": 0,
+          "wins_as_A": 39, "wins_as_B": 41
+        },
+        "titanj1": {
+          "games": 140, "wins": 75, "losses": 65,
+          "gems_us": 112227, "gems_them": 106508,
+          "bot_faults_us": 0, "bot_faults_them": 0,
+          "wins_as_A": 39, "wins_as_B": 36
+        },
+        "titanj2": {
+          "games": 140, "wins": 69, "losses": 71,
+          "gems_us": 109599, "gems_them": 106114,
+          "bot_faults_us": 0, "bot_faults_them": 0,
+          "wins_as_A": 38, "wins_as_B": 31
+        }
+      }
+    },
+    {
+      "candidate": "apex",
+      "source": "matches/panel-apex-20261027-222811",
+      "manifest_sha256": "6a62117a331c4f0cfcf8eda4fadaad28419b2e271077ae059f7b495ba638dd03",
+      "statistics_digest": "ce655aedc65c9e0eef443a6b1b541cfe684877aa2b28aed45f013c3ea712bb54",
+      "expected_games": 140,
+      "completed_games": 140,
+      "wins": 67,
+      "losses": 73,
+      "opponents": {
+        "titanj2": {
+          "games": 140, "wins": 67, "losses": 73,
+          "gems_us": 108411, "gems_them": 108425,
+          "bot_faults_us": 0, "bot_faults_them": 0,
+          "wins_as_A": 35, "wins_as_B": 32
+        }
+      }
+    }
+  ],
+  "engine_version": "2.0.0",
+  "engine_build_hash": "85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21",
+  "submission_version": null,
+  "statistics_digest_method": "SHA-256 of json.dumps({statistics_filename: sha256(raw_statistics_bytes)}, sort_keys=True).encode(), using Python defaults."
+}
