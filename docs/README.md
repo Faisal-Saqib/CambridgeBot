@@ -1,4 +1,4 @@
-# Bot strategies and versions
+﻿# Bot strategies and versions
 
 - [FULL_STRATEGY.md](FULL_STRATEGY.md): compact explanation of implemented and planned behavior.
 - [PLAN.md](PLAN.md): priorities, hypotheses and risks.
@@ -9,7 +9,7 @@
 - [MAP_FINDINGS.md](MAP_FINDINGS.md): reviewed findings from completed five-opponent map blocks (currently the first five maps).
 - [TOP_TEAM_FINDINGS.md](TOP_TEAM_FINDINGS.md) and [TOP_TEAM_OBSERVATIONS.md](TOP_TEAM_OBSERVATIONS.md): study of top-ranked teams' games.
 - [TOP20_STRATEGY_CENSUS.md](TOP20_STRATEGY_CENSUS.md): strategy patterns across all top-20 teams, ordered by prevalence (1,040 downloaded ranked matches).
-- [TOP20_MAP_TARGETS.md](TOP20_MAP_TARGETS.md): per-map top-20 behaviour and 10 target points per map.
+- [TOP20_MAP_TARGETS.md](TOP20_MAP_TARGETS.md): per-map top-20 behaviour and 10 target points per map.`n- [TOP20_DEEP_ANALYSIS.md](TOP20_DEEP_ANALYSIS.md): deep per-team breakdown — drafts, item builds, wards, traversal, reward distribution (1,124 matches).
 - [HANDOFF_PROMPT.md](HANDOFF_PROMPT.md): self-contained brief for the next implementation cycle.
 - [top20-cohesion-baseline.md](top20-cohesion-baseline.md): generated match table for the fresh top-20 v22 baseline.
 - [strategies/cohesion-local.md](strategies/cohesion-local.md): rejected local whole-team formation experiment (unsubmitted).

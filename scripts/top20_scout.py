@@ -95,6 +95,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--lists-only", action="store_true",
                         help="Fetch team match lists and the selection manifest, no summaries.")
+    parser.add_argument("--all-lists", action="store_true",
+                        help="Also download summaries for every finished ranked match in the team lists.")
     parser.add_argument("--limit", type=int, default=0,
                         help="Download at most N more summaries this run (0 = all pending).")
     args = parser.parse_args()
@@ -155,6 +157,12 @@ def main():
         stale.unlink()
     pending = [mid for mid in manifest["selection"]
                if not (summaries_dir / f"{mid}.json").exists()]
+    if args.all_lists:
+        listed = set()
+        for p in lists_dir.glob("*.json"):
+            listed.update(m["matchId"] for m in load(p)["matches"] if finished(m))
+        pending.extend(mid for mid in sorted(listed - set(manifest["selection"]))
+                       if not (summaries_dir / f"{mid}.json").exists())
     print(f"Pending summaries: {len(pending)}", flush=True)
     done = failed = 0
     for mid in pending:

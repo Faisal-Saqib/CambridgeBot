@@ -313,6 +313,9 @@ impl Bot {
         self.last_hp = self.hp;
         self.sense()?;
         self.gate_now = self.gate();
+        if let Some((_, _, gp)) = self.gate_now {
+            self.ward_gate(gp);
+        }
         self.guard_update()?;
 
         let at_spawn = self.kb.spawn.is_set(self.pos)?;

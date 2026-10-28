@@ -193,6 +193,35 @@ First win against a top-5 team: **Expanse vs print dont int, 1006-927** (172k vs
 camp damage). Bot faults 0. Farming maps improved a lot; fight maps (the_line, crater)
 and Boss Battle's gated altar are unchanged and are the next problems.
 
+## v4 (platform v28, submission 71e3de02-bdd7-4c8f-b363-36e17ece0ae2): retreat earlier
+
+Source frozen in `versions/v4/src`. One change on top of v3, in `src/fight.rs`.
+
+Why: in the v27 top-5 games our deaths came in waves of four, one champion at a time,
+each killed by 3-5 enemies (e.g. the_line vs Mite: rounds 29, 38, 44, 52; then 128-142;
+then 230-239). The old rule only retreated when outnumbered once the nearest enemy was
+within its attack range + 2, which is too late against 2-tile dashes and range-4 stuns.
+Change: enemies are counted within 8 tiles (was 6); retreat when outnumbered and the
+nearest enemy is within 7 tiles, or when clearly losing within range + 4 (was + 2).
+Finishing hits and "don't run from an adjacent melee" still apply.
+
+Local gate: 177/280 (v3 181), deaths per game 14.3 -> 12.3, gems 833 -> 861; sparse maps
+deaths 19.0 -> 15.6.
+
+### Top-5 rematch on v28: 0/25
+
+Same maps, sides and opponent bots (`online/top5-v28/`). Totals over the five teams:
+
+| Map | Our deaths v27 -> v28 | Our kills v27 -> v28 | Gems lost v27 -> v28 |
+| --- | --- | --- | --- |
+| 00the_line | 103 -> 80 | 4 -> 11 | 169 -> 4 |
+| 00crater | 131 -> 118 | 1 -> 3 | 477 -> 562 |
+| 01boss_battle | 65 -> 49 | 2 -> 1 | 1033 -> 585 |
+
+Fewer deaths and more kills on The Line, but still 0-1030 on average: we survive more
+yet never win the jackpot. Expanse vs print dont int was 791-1002 (v27 won it 1006-927),
+so the one v27 win was a narrow one. Bot faults 0.
+
 ## v3 draft experiment (not uploaded; superseded name)
 
 Top-team draft on farming maps (normal/rich, 4-5 picks): Vesper, Vendetta, Heart of

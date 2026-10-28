@@ -45,6 +45,35 @@ impl Bot {
         best.map(|b| b.1)
     }
 
+    /// Chamero: keep a ward on the gate camp. Vision is not shared and a
+    /// group's state needs vision, so the team never noticed when the enemy
+    /// killed the gate (top teams do, then tribute 150-290 gems at once) and
+    /// held its gems all game: 0 points on Boss Battle in every top-5 game.
+    /// Wards are permanent and camps ignore them, so a champion passing within
+    /// 8 tiles drops its ward on the reachable tile nearest the gate; from then
+    /// on `gate()` sees the gate die and opens the altar for the whole team.
+    pub fn ward_gate(&mut self, gp: Vec2) {
+        let me = crate::util::me();
+        if cheb(self.pos, gp) > 8 || me.ward_cooldown().unwrap_or(1) > 0 {
+            return;
+        }
+        let watched = me.ward_positions().map_or(false, |ws| ws.iter().any(|w| cheb(*w, gp) <= 5));
+        if watched {
+            return;
+        }
+        let Ok(tiles) = me.ward_placement_tiles() else { return };
+        let Ok(cands) = tiles.positions() else { return };
+        let best = cands
+            .into_iter()
+            .filter(|p| !self.kb.is_blocked(*p) && !self.occupied.is_set(*p).unwrap_or(true))
+            .min_by_key(|p| cheb(*p, gp));
+        if let Some(p) = best {
+            if cheb(p, gp) <= 5 && me.place_ward(p).unwrap_or(false) {
+                log!(self, "ward on gate at {},{} from {},{}", gp.x, gp.y, p.x, p.y);
+            }
+        }
+    }
+
     pub fn gate_assault(&self) -> bool {
         self.comm.gate_flags() & GATE_ASSAULT != 0
     }
