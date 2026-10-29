@@ -15,6 +15,12 @@ OUR_NAME = "Quantum Wardens"
 VERSIONS = {
     "top5": "v26", "top5-v27": "v27", "top5-v28": "v28",
     "top5-v29": "v29", "top5-v30": "v30", "": "v25/26",
+    "top5-v31": "v31", "top5-v32": "v32", "top5-v33": "v33",
+    "top5-v34": "v34", "top5-v35": "v35", "top5-v36": "v36",
+    "top5-v37": "v37", "top5-v38": "v38", "top5-v39": "v39",
+    "panel2": "v33-p2", "panel2-v34": "v34-p2", "panel2-v35": "v35-p2",
+    "panel2-v36": "v36-p2", "panel2-v37": "v37-p2", "panel2-v38": "v38-p2",
+    "panel2-v39": "v39-p2",
 }
 
 def num(x):
