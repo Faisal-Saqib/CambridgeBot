@@ -96,15 +96,29 @@ in unranked). Fix = wider spread (one champ per camp cluster), plus the
 P1 item changes (Power items make clears faster). Also consider drafting
 Varg on pure-farm maps: he does 43.9k camp/game for top teams.
 
-## P5 — Spend less on locks, more deliberately
+## P5 — Place locks deliberately, not reflexively
 
-**Measured:** 2,033 altar locks ≈ 10/game. Locks only help if the team
-controls the altar approach; in losses the enemy banks 961/game anyway.
+**Measured:** 2,033 altar locks ≈ 10/game, bought in a tight ~9–11/game
+distribution in every game — an automatic rule, not a positional decision.
+Locks correlate weakly with wins (9.8/g in wins, 10.4/g in losses; ≥8-lock
+games win 42% vs 40.5% overall).
 
-**Fix:** buy locks only when (a) we hold the altar's approach, or (b) an
-enemy carrier is expected within ~20 rounds. Cap ~3–4/game and redirect
-the saved gold into items — 6+ locks/game is a significant item budget
-burned on a consumable that isn't converting into wins.
+**Cost correction:** an Altar Lock costs only **10 gold** (per consumable
+pricing in bot sources), so 10/game ≈ 100 gold ≈ <2% of their ~5.5k/game
+economy. The problem is *not* budget — it's that locks placed on altars
+the enemy never approaches (or locks the enemy simply breaks while they
+hold the map) produce zero value. In losses the enemy still banks
+961/game, so the locks are being placed where they don't matter or
+removed before they do.
+
+**Fix:** keep buying them (they're nearly free) but gate placement:
+(a) lock the altar nearest our farming cluster *before* the enemy's
+carrier pattern reaches it, (b) skip locks on altars behind enemy-held
+territory we can't defend, (c) re-lock after the enemy breaks one only
+if we still control the approach. Also worth one defensive habit: check
+`has_altar_lock` on our tribute altar before the carrier commits —
+their own heavy lock use means OUR carriers will often find the altar
+locked against us.
 
 ## P6 — Preserve what already works
 
@@ -124,7 +138,8 @@ burned on a consumable that isn't converting into wins.
 3. HoR in 5-pick drafts (P2) — one-line draft-order change.
 4. Retreat/carrier rules (P3) — medium effort, biggest death reduction.
 5. Map-class plans for monolith/farm maps (P4).
-6. Lock throttling (P5) — one counter + conditions.
+6. Lock placement gating (P5) — placement conditions, not cost: locks are
+   ~10 gold each, so the win is positional, not economic.
 
 Each change should go through their existing loop (unranked 5-map panel
 vs peer bots, including us — their 3/10 vs Quantum Wardens is a useful
