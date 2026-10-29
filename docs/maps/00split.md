@@ -1,27 +1,52 @@
-# 00split - map strategy worksheet
+# 00split strategy
 
-<!-- Generated from frozen campaign results by scripts/map_campaign.py. -->
+**Class:** boss | **Size:** 45x35 | **Picks:** 5 | **Altars:** 3 | **Camp groups:** 32
 
-Fixed baseline: v22. Coverage: **4/5 opponents**. Record: **4-0**.
+## Map facts [derived]
 
-## Map evidence
+- Gems 850 (170/champ), gold 2660 (532/champ), camp HP per gem 110.
+- Gem concentration: top 25%, center 25%, monolith-held 50%, harmless camps 5%.
+- Camp density 539.7; brawl flag: False.
 
-- 45x35; 3 altars; 850 static gems
-- Largest group: 214 gems, summed base strength 200
+## What top-20 teams did here [measured]
 
-Shape facts are from the earlier frozen map scan. Match IDs below resolve to tested map hashes in the stored summaries.
+- Sample: 30 team-games, 16 wins.
+- Winning drafts: Heart of Ruin, Marcella, Vendetta, Vesper Vale, Willow (5w); Heart of Ruin, Marcella, Ryth, Vendetta, Vesper Vale (3w); Marcella, Ryth, Varg, Vendetta, Vesper Vale (2w)
+- Champions in winning drafts: Marcella (16w), Heart of Ruin (14w), Vendetta (14w), Vesper Vale (14w), Ryth (8w), Willow (6w), Varg (3w), Cassi & Issac (2w)
+- Winners: kills 5.0, deaths 3.2, tribute 45.6 gems, wards 49, farm spread 16.8 tiles.
+- Winner item families: Bruiser×787, Jungle×194, Durability×142, Prospector×128, Treasure×102, Monster×77
+- Winner consumables: Teleport Crystal×215, Altar Lock×78
 
-## Results
+## Our record here [measured]
 
-| Opponent | Side | Result | Gems us/them | Deaths us/them | Our gems lost | Match ID |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ascendance | b | win | 1008/449 | 6/5 | 7 | 3bd59866-0976-4acc-adce-8843c10194a7 |
-| eclipsed Sunlight | a | win | 1004/952 | 23/19 | 166 | 983681c7-061c-473c-bfd0-32224e54f222 |
-| The World Machine | b | win | 1016/828 | 13/19 | 92 | 1d70cf01-d2ba-467a-b17e-1dcf4eae39ea |
-| Princess Donut the Queen Anne Chonk | a | win | 1023/107 | 3/12 | 25 | ce4c0cb2-37bc-4549-a07d-65ede64e9e04 |
+- v22 campaign vs five ~peer teams: 4/4 wins (results/b*.json).
 
-## Interpretation and next experiment
+## Recommended plan
 
-Incomplete opponent coverage. No map-specific strategy decision yet.
+### Draft
 
-These are hypotheses for controlled follow-up, not a validated optimal strategy. The completed design uses five real opponent snapshots with a 3/2 side balance. No map-specific bot change is enabled by this report.
+- Primary: copy the most-frequent winning draft here — **Heart of Ruin, Marcella, Vendetta, Vesper Vale, Willow** [measured].
+- Fallback: **Vesper Vale, Vendetta, Heart of Ruin, Marcella, Ryth** — sustain clear comp for long monolith sieges [hypothesis].
+
+### Camp targets
+
+- Monoliths hold 50% of gems [derived]. Prioritize the nearest monolith camps; use sustained chipping (camps keep damage between visits) + death-blacklist so a killed champ does not immediately re-die to the same camp.
+- Do NOT hold gems for a group gate assault vs real teams — bank through open altars early; break gate camps around round 400-700 like top teams, not 900+ [measured].
+
+### Items / shards / emblems
+
+- Opening (everyone): Monster + Jungle Health for early clear and sustain — matches every top-20 opening [measured].
+- Vesper Vale (carry): Bruiser Strength shards/emblems as main stack; add Power Strength once Bruiser caps.
+- Vendetta (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
+- Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
+- Marcella (carry): Bruiser Focus shards/emblems as main stack; add Power Focus once Bruiser caps.
+- Ryth (support): Bruiser Health shards/emblems as main stack; Durability Health for tankiness.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 18.3 consumables/game here); TP crystal(s) for carrier escapes.
+
+### Traversal / positioning
+
+- Two loose pairs beat one ball here: one pair sieges monoliths, one pair farms side camps + banks. Regroup within ~12 tiles when enemies appear.
+- Bank at the nearest of 3 altars; tribute when a carrier holds ~46 gems or when an enemy is chasing — losing carried gems is the main way games here are lost.
+
+---
+*Unvalidated plan derived from data; test locally before adopting.*

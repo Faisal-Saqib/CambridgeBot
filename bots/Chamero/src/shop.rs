@@ -7,7 +7,7 @@
 // Prospector/Collectors on their farmers; v24 never bought any of them.
 // Every emblem is 5 shards of its stat, so a useful passive costs only the
 // one extra shard of stats that Power would have given.
-use cambc::{get_item_enum, Champion, ChampionType as C, ItemFamily as F, ItemStat as S, Result};
+use cambc::{get_item_enum, Champion, ChampionType as C, ConsumableType, ItemFamily as F, ItemStat as S, Result};
 
 /// Main damage stat for a champion: what its kit scales with.
 fn main_stat(kind: C) -> S {
@@ -17,52 +17,17 @@ fn main_stat(kind: C) -> S {
     }
 }
 
-/// Opening emblems (one passive each, by priority), then Bruiser for good:
-/// 5 shards of the main stat plus one of each other is the most stats per
-/// gold, and stats stack across copies.
+/// Chamero v10: the top teams' build. Across 125 online games they averaged
+/// about 11 Bruiser-Strength emblems a game, one Monster and one Jungle each;
+/// we stacked Monster, Capture, Jungle/Durability Health, Collectors and
+/// Prospector first and bought little Bruiser. Now: Monster (main stat) for
+/// camps, Jungle Health to survive camps, then Bruiser on the main stat (5
+/// main + 1 of each other stat per emblem) for the rest of the game.
 pub fn build(kind: C) -> Vec<(F, S)> {
     let m = main_stat(kind);
-    let opening: Vec<(F, S)> = match kind {
-        // Frontline: survive camps first, then farm speed.
-        C::Ryth | C::Ren | C::HeartOfRuin => vec![
-            (F::Jungle, S::Health),
-            (F::Monster, m),
-            (F::Capture, m),
-            (F::Durability, S::Health),
-            (F::Collectors, m),
-            (F::Prospector, m),
-        ],
-        // Fragile casters: one health emblem before damage.
-        C::Marcella | C::Cassi | C::Stellar | C::Prism => vec![
-            (F::Durability, S::Health),
-            (F::Monster, m),
-            (F::Capture, m),
-            (F::Jungle, S::Health),
-            (F::Collectors, m),
-            (F::Prospector, m),
-        ],
-        // Vesper's gold passive compounds with Treasure.
-        C::VesperVale => vec![
-            (F::Monster, m),
-            (F::Capture, m),
-            (F::Treasure, m),
-            (F::Jungle, S::Health),
-            (F::Durability, S::Health),
-            (F::Collectors, m),
-            (F::Prospector, m),
-        ],
-        _ => vec![
-            (F::Monster, m),
-            (F::Capture, m),
-            (F::Jungle, S::Health),
-            (F::Durability, S::Health),
-            (F::Collectors, m),
-            (F::Prospector, m),
-        ],
-    };
-    let mut plan = opening;
-    for i in 0..30 {
-        plan.push((F::Bruiser, if i % 4 == 3 { S::Health } else { m }));
+    let mut plan = vec![(F::Monster, m), (F::Jungle, S::Health)];
+    for _ in 0..40 {
+        plan.push((F::Bruiser, m));
     }
     plan
 }
@@ -72,6 +37,14 @@ pub fn shop(me: &Champion, kind: C) -> Result<bool> {
     let mut bought = false;
     let counts = me.item_count()?;
     let mut gold = me.gold_count()?;
+    // Chamero: always carry one altar lock (10 gold; top teams all do).
+    let lock = &me.consumables()[ConsumableType::AltarLock];
+    if lock.count().unwrap_or(1) == 0 && gold >= 10 && me.can_buy_consumable(ConsumableType::AltarLock).unwrap_or(false) {
+        if me.buy_consumable(ConsumableType::AltarLock).is_ok() {
+            gold -= 10;
+            bought = true;
+        }
+    }
     let plan = build(kind);
     for (i, &(family, stat)) in plan.iter().enumerate() {
         let shard = get_item_enum(family, stat, true);

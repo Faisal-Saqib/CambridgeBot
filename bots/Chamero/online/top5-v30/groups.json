@@ -1,0 +1,64 @@
+[
+ {
+  "team": "Mite",
+  "team_id": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+  "rank": 3,
+  "rating": 2377.6316565285597,
+  "checked_at": "2026-10-29T06:26:36.225628+00:00",
+  "sides": "a,b,a,b,a",
+  "source_group": "e27e5c81-927d-4173-a3fd-3a04a399e85d",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 30  Selected: 30"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"731e868d-d229-4f08-8ff1-4998ba71ff7a\",\"matchId\":\"2798d363-1ed8-4350-b87d-5e7325058c17\",\"teamName\":\"Mite\"}",
+  "stderr": ""
+ },
+ {
+  "team": "Intercontinental Fish",
+  "team_id": "1890540d-1ffc-4847-adbf-d0d08772f268",
+  "rank": 2,
+  "rating": 2399.395066138457,
+  "checked_at": "2026-10-29T06:26:37.744468+00:00",
+  "sides": "b,a,b,a,b",
+  "source_group": "a781860e-1e40-4cb3-b3eb-0bfbecc0601d",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 30  Selected: 30"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"6acb7ec1-2857-4b56-8826-0d7bb691a163\",\"matchId\":\"7dca3c3d-2898-46ef-bb43-71fb021afcbe\",\"teamName\":\"Intercontinental Fish\"}",
+  "stderr": ""
+ },
+ {
+  "team": "newer team",
+  "team_id": "547efb5b-57e5-4355-8501-3b331f506d62",
+  "rank": 4,
+  "rating": 2358.384437251986,
+  "checked_at": "2026-10-29T06:26:39.492027+00:00",
+  "sides": "a,b,a,b,a",
+  "source_group": "a7a1a432-a073-4831-84e3-08cd59f195d8",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 30  Selected: 30"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"17a2019e-842a-4b56-8bfb-857fc6f60103\",\"matchId\":\"af045bf2-b178-40c9-816d-e5368392aac9\",\"teamName\":\"newer team\"}",
+  "stderr": ""
+ },
+ {
+  "team": "Ad Astra",
+  "team_id": "de0b1e3c-39fb-473c-8244-61c1133ad612",
+  "skipped": true,
+  "rank": 8,
+  "checked_at": "2026-10-29T06:26:41.094992+00:00"
+ },
+ {
+  "team": "print dont int",
+  "team_id": "d559d741-ac53-411e-bc4e-36b8f3d12d5a",
+  "skipped": true,
+  "rank": 6,
+  "checked_at": "2026-10-29T06:26:42.106753+00:00"
+ }
+]

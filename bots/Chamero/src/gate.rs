@@ -8,6 +8,9 @@ use crate::log;
 use crate::util::cheb;
 use cambc::Vec2;
 
+/// Round after which we attack the gate ourselves if nobody has opened it.
+const GATE_ASSAULT_ROUND: u32 = 500;
+
 impl Bot {
     /// The gate camp (group, index, position) while every altar is shut.
     pub fn gate(&mut self) -> Option<(usize, usize, Vec2)> {
@@ -34,7 +37,11 @@ impl Bot {
             }
         }
         // Start the assault once there is something worth banking.
-        if flags == 0 && (self.round >= 200 || self.gems >= 60) {
+        // Chamero: wait much longer (was round 200 or 60 gems). Against top
+        // teams our early assaults fed the monolith 4-9 camp deaths a game and
+        // lost the carried gems; they wait, kill it late (rounds 470-720) and
+        // tribute 200-865 at once. The gate ward shows us when it falls.
+        if flags == 0 && self.round >= GATE_ASSAULT_ROUND {
             log!(self, "gate assault on");
             flags = GATE_ASSAULT;
         }

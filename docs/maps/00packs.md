@@ -1,31 +1,49 @@
-# 00packs - map strategy worksheet
+# 00packs strategy
 
-<!-- Generated from frozen campaign results by scripts/map_campaign.py. -->
+**Class:** sparse | **Size:** 31x31 | **Picks:** 3 | **Altars:** 6 | **Camp groups:** 8
 
-Fixed baseline: v22. Coverage: **5/5 opponents**. Record: **5-0**.
+## Map facts [derived]
 
-## Map evidence
+- Gems 148 (49/champ), gold 1120 (373/champ), camp HP per gem 162.
+- Gem concentration: top 20%, center 0%, monolith-held 0%, harmless camps 38%.
+- Camp density 154.0; brawl flag: False.
 
-- 31x31; 6 altars; 148 static gems
-- Largest group: 30 gems, summed base strength 120
+## What top-20 teams did here [measured]
 
-Shape facts are from the earlier frozen map scan. Match IDs below resolve to tested map hashes in the stored summaries.
+- Sample: 28 team-games, 14 wins.
+- Winning drafts: Heart of Ruin, Marcella, Vendetta (4w); Marcella, Vendetta, Vesper Vale (3w); Heart of Ruin, Vendetta, Vesper Vale (3w)
+- Champions in winning drafts: Vendetta (11w), Marcella (10w), Heart of Ruin (10w), Vesper Vale (8w), Ryth (1w), Tavi (1w), Varg (1w)
+- Winners: kills 8.4, deaths 3.1, tribute 32.3 gems, wards 97, farm spread 17.6 tiles.
+- Winner item families: Bruiser×1789, Durability×128, Jungle×127, Prospector×122, Other×120, Treasure×100
+- Winner consumables: Altar Lock×34, Teleport Crystal×4
 
-## Results
+## Our record here [measured]
 
-| Opponent | Side | Result | Gems us/them | Deaths us/them | Our gems lost | Match ID |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ascendance | a | win | 1014/852 | 18/15 | 28 | 5d9d0d6b-f0ad-40db-a1db-356cabc83efb |
-| eclipsed Sunlight | b | win | 1000/666 | 12/27 | 14 | aee0138d-4bb5-4bea-bb30-d8b3e73c712d |
-| The World Machine | a | win | 1008/66 | 1/12 | 0 | 96fec2c1-f06c-4f9d-85da-37265f02cbe8 |
-| Princess Donut the Queen Anne Chonk | b | win | 1010/164 | 5/21 | 28 | b9480102-3839-4cbb-ac48-23d716d3f726 |
-| Knoobs | a | win | 1012/484 | 15/13 | 70 | 4eaa5b99-d008-4290-9a9f-b40518a95581 |
+- v22 campaign vs five ~peer teams: 5/5 wins (results/b*.json).
 
-## Interpretation and next experiment
+## Recommended plan
 
-- Collected 5268; submitted 5044; lost 140 carried gems.
-- Deaths 51 versus 88; fuel exhaustion 0; bot faults 0.
-- Preserve v22 as this map's reference.
-- Inspect actual loss events and routes; low submission alone does not prove a banking-threshold problem.
+### Draft
 
-These are hypotheses for controlled follow-up, not a validated optimal strategy. The completed design uses five real opponent snapshots with a 3/2 side balance. No map-specific bot change is enabled by this report.
+- Primary: copy the most-frequent winning draft here — **Heart of Ruin, Marcella, Vendetta** [measured].
+- Fallback: **Vesper Vale, Vendetta, Heart of Ruin** — low-economy map; carry + efficient clearers, skip Willow [hypothesis].
+
+### Camp targets
+
+- Only 49 gems/champ [derived]. Take high-value camps within ~15 tiles of spawn; skip far low-value trips (travel dominates on sparse maps).
+
+### Items / shards / emblems
+
+- Opening (everyone): Monster + Jungle Health for early clear and sustain — matches every top-20 opening [measured].
+- Vesper Vale (carry): Bruiser Strength shards/emblems as main stack; add Power Strength once Bruiser caps.
+- Vendetta (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
+- Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 2.7 consumables/game here); TP crystal(s) for carrier escapes.
+
+### Traversal / positioning
+
+- Wide spread (one champ per camp cluster, matching the measured winner spread above), regroup on enemy sighting within ~12 tiles.
+- Bank at the nearest of 6 altars; tribute when a carrier holds ~32 gems or when an enemy is chasing — losing carried gems is the main way games here are lost.
+
+---
+*Unvalidated plan derived from data; test locally before adopting.*

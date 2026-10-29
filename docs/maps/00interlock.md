@@ -1,31 +1,50 @@
-# 00interlock - map strategy worksheet
+# 00interlock strategy
 
-<!-- Generated from frozen campaign results by scripts/map_campaign.py. -->
+**Class:** normal | **Size:** 40x40 | **Picks:** 4 | **Altars:** 4 | **Camp groups:** 14
 
-Fixed baseline: v22. Coverage: **5/5 opponents**. Record: **5-0**.
+## Map facts [derived]
 
-## Map evidence
+- Gems 200 (50/champ), gold 1200 (300/champ), camp HP per gem 148.
+- Gem concentration: top 22%, center 0%, monolith-held 0%, harmless camps 0%.
+- Camp density 125.0; brawl flag: False.
 
-- 40x40; 4 altars; 200 static gems
-- Largest group: 44 gems, summed base strength 120
+## What top-20 teams did here [measured]
 
-Shape facts are from the earlier frozen map scan. Match IDs below resolve to tested map hashes in the stored summaries.
+- Sample: 28 team-games, 15 wins.
+- Winning drafts: Heart of Ruin, Marcella, Vendetta, Vesper Vale (6w); Heart of Ruin, Marcella, Ryth, Vesper Vale (3w); Marcella, Ryth, Tavi, Vendetta (2w)
+- Champions in winning drafts: Marcella (15w), Heart of Ruin (12w), Vendetta (11w), Vesper Vale (10w), Ryth (6w), Tavi (4w), Varg (1w), Prism (1w)
+- Winners: kills 12.7, deaths 8.3, tribute 32.8 gems, wards 132, farm spread 29.4 tiles.
+- Winner item families: Bruiser×1475, Other×352, Durability×188, Jungle×170, Prospector×131, Monster×88
+- Winner consumables: Altar Lock×56, Teleport Crystal×9
 
-## Results
+## Our record here [measured]
 
-| Opponent | Side | Result | Gems us/them | Deaths us/them | Our gems lost | Match ID |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ascendance | a | win | 1000/175 | 0/19 | 0 | 886e6118-64b6-4ff8-9c55-50b47f5857dc |
-| eclipsed Sunlight | b | win | 1013/627 | 2/16 | 0 | 8779d6b0-c54f-44c7-8368-00a0939b805e |
-| The World Machine | a | win | 1032/166 | 6/26 | 37 | d7a27f73-03db-42b3-8ffb-eb020decada0 |
-| Princess Donut the Queen Anne Chonk | b | win | 1009/147 | 5/10 | 0 | 9c68553e-d453-4d08-9ba6-2245b00944ee |
-| Knoobs | a | win | 1006/341 | 19/14 | 74 | f7070a9d-3b3b-4de2-b217-f2c924f9949b |
+- v22 campaign vs five ~peer teams: 5/5 wins (results/b*.json).
 
-## Interpretation and next experiment
+## Recommended plan
 
-- Collected 5197; submitted 5060; lost 111 carried gems.
-- Deaths 32 versus 85; fuel exhaustion 0; bot faults 0.
-- Preserve v22 as this map's reference.
-- Inspect actual loss events and routes; low submission alone does not prove a banking-threshold problem.
+### Draft
 
-These are hypotheses for controlled follow-up, not a validated optimal strategy. The completed design uses five real opponent snapshots with a 3/2 side balance. No map-specific bot change is enabled by this report.
+- Primary: copy the most-frequent winning draft here — **Heart of Ruin, Marcella, Vendetta, Vesper Vale** [measured].
+- Fallback: **Vesper Vale, Vendetta, Heart of Ruin, Marcella** — fast clear + one banker [hypothesis].
+
+### Camp targets
+
+- 50 gems/champ across 14 groups [derived]. Spread-farm: each champ claims a camp cluster, top teams' farm spread here was 29.4 tiles.
+
+### Items / shards / emblems
+
+- Opening (everyone): Monster + Jungle Health for early clear and sustain — matches every top-20 opening [measured].
+- Vesper Vale (carry): Bruiser Strength shards/emblems as main stack; add Power Strength once Bruiser caps.
+- Vendetta (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
+- Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
+- Marcella (carry): Bruiser Focus shards/emblems as main stack; add Power Focus once Bruiser caps.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 4.3 consumables/game here); TP crystal(s) for carrier escapes.
+
+### Traversal / positioning
+
+- Wide spread (one champ per camp cluster, matching the measured winner spread above), regroup on enemy sighting within ~12 tiles.
+- Bank at the nearest of 4 altars; tribute when a carrier holds ~33 gems or when an enemy is chasing — losing carried gems is the main way games here are lost.
+
+---
+*Unvalidated plan derived from data; test locally before adopting.*

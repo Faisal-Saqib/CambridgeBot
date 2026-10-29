@@ -1,0 +1,47 @@
+# 01gold-rush strategy
+
+**Class:** jackpot | **Size:** 31x31 | **Picks:** 3 | **Altars:** 4 | **Camp groups:** 15
+
+## Map facts [derived]
+
+- Gems 266 (89/champ), gold 1100 (367/champ), camp HP per gem 121.
+- Gem concentration: top 75%, center 79%, monolith-held 75%, harmless camps 0%.
+- Camp density 276.8; brawl flag: False.
+
+## What top-20 teams did here [measured]
+
+- No top-20 games downloaded for this map; plan is derived from map facts and class-level behaviour.
+
+## Our record here [measured]
+
+- No recorded online results for our bots on this map.
+
+## Recommended plan
+
+### Draft
+
+- Fallback: **Vesper Vale, Vendetta, Heart of Ruin** — melee-heavy deathball for the contested objective [hypothesis]. Ryth's AoE stun + bodies for trades; drop Willow/Tavi.
+
+### Camp targets
+
+- One group holds ~79% of the map's 266 gems [derived]. That group IS the map: send the whole team at round 0, clear it together, escort the carrier to the altar. Conceding it = conceding the game (our the_line record: 0 points in 25 straight games [measured]).
+- After the jackpot, farm outward in a cluster — do not spread solo while enemies are alive [hypothesis].
+- 79% of gems are in the center [derived] — contest it early; this is the 'central gems' failure we observed (our bot walked past center gems to side camps).
+- 75% of gems sit in one top region [derived] — treat it as the jackpot objective even if the map is otherwise spread out.
+
+### Items / shards / emblems
+
+- Opening (everyone): Monster + Jungle Health for early clear and sustain — matches every top-20 opening [measured].
+- Vesper Vale (carry): Bruiser Strength shards/emblems as main stack; add Power Strength once Bruiser caps.
+- Vendetta (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
+- Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
+- Buy a **Tribute** emblem for the designated carrier — bigger banked hauls decide jackpot maps [hypothesis].
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged n/a consumables/game here); TP crystal(s) for carrier escapes.
+
+### Traversal / positioning
+
+- Move as one group; nobody farms alone beyond ~6 tiles from the nearest ally. Escort carriers to the altar; fight only with 3+ bodies present.
+- Bank at the nearest of 4 altars; tribute when a carrier holds ~35 gems or when an enemy is chasing — losing carried gems is the main way games here are lost.
+
+---
+*Unvalidated plan derived from data; test locally before adopting.*

@@ -1,32 +1,52 @@
-# 00quadrants - map strategy worksheet
+# 00quadrants strategy
 
-<!-- Generated from frozen campaign results by scripts/map_campaign.py. -->
+**Class:** rich | **Size:** 45x45 | **Picks:** 5 | **Altars:** 4 | **Camp groups:** 21
 
-Fixed baseline: v22. Coverage: **5/5 opponents**. Record: **5-0**.
+## Map facts [derived]
 
-## Map evidence
+- Gems 763 (153/champ), gold 1320 (264/champ), camp HP per gem 67.
+- Gem concentration: top 16%, center 47%, monolith-held 0%, harmless camps 5%.
+- Camp density 376.8; brawl flag: False.
 
-- 45x45; 4 altars; 763 static gems
-- 35/763 static gems were recorded outside the spawn walkable component
-- Largest group: 120 gems, summed base strength 120
+## What top-20 teams did here [measured]
 
-Shape facts are from the earlier frozen map scan. Match IDs below resolve to tested map hashes in the stored summaries.
+- Sample: 24 team-games, 14 wins.
+- Winning drafts: Heart of Ruin, Marcella, Ryth, Vendetta, Vesper Vale (6w); Heart of Ruin, Marcella, Tavi, Vendetta, Vesper Vale (3w); Heart of Ruin, Marcella, Tavi, Varg, Vendetta (2w)
+- Champions in winning drafts: Marcella (14w), Heart of Ruin (14w), Vendetta (13w), Vesper Vale (10w), Ryth (8w), Tavi (6w), Varg (2w), Prism (1w)
+- Winners: kills 3.1, deaths 2.5, tribute 52.0 gems, wards 44, farm spread 17.3 tiles.
+- Winner item families: Jungle×144, Treasure×135, Bruiser×117, Prospector×108, Durability×90, Monster×51
+- Winner consumables: Teleport Crystal×128, Altar Lock×58
 
-## Results
+## Our record here [measured]
 
-| Opponent | Side | Result | Gems us/them | Deaths us/them | Our gems lost | Match ID |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ascendance | a | win | 1078/671 | 2/9 | 36 | d491455c-175f-477c-a71c-e98ea55f9059 |
-| eclipsed Sunlight | b | win | 1014/775 | 0/4 | 0 | 3c05bb06-c804-449f-adc2-781bc30ca63a |
-| The World Machine | a | win | 1071/192 | 2/28 | 50 | 908b9311-9d49-462b-88f9-9a2951f41aa6 |
-| Princess Donut the Queen Anne Chonk | b | win | 1027/706 | 5/5 | 25 | e4a91b58-8d39-46b8-a5a4-17262a6e9e5d |
-| Knoobs | a | win | 1021/476 | 3/0 | 75 | 90696118-8e1a-4495-b23c-d1ad4f48f368 |
+- v22 campaign vs five ~peer teams: 5/5 wins (results/b*.json).
 
-## Interpretation and next experiment
+## Recommended plan
 
-- Collected 5437; submitted 5211; lost 186 carried gems.
-- Deaths 12 versus 46; fuel exhaustion 26; bot faults 0.
-- Preserve v22 as this map's reference.
-- Inspect actual loss events and routes; low submission alone does not prove a banking-threshold problem.
+### Draft
 
-These are hypotheses for controlled follow-up, not a validated optimal strategy. The completed design uses five real opponent snapshots with a 3/2 side balance. No map-specific bot change is enabled by this report.
+- Primary: copy the most-frequent winning draft here — **Heart of Ruin, Marcella, Ryth, Vendetta, Vesper Vale** [measured].
+- Fallback: **Vesper Vale, Vendetta, Heart of Ruin, Marcella, Tavi** — fast clear + one banker [hypothesis].
+
+### Camp targets
+
+- 153 gems/champ across 21 groups [derived]. Spread-farm: each champ claims a camp cluster, top teams' farm spread here was 17.3 tiles.
+- 47% of gems are in the center [derived] — contest it early; this is the 'central gems' failure we observed (our bot walked past center gems to side camps).
+
+### Items / shards / emblems
+
+- Opening (everyone): Monster + Jungle Health for early clear and sustain — matches every top-20 opening [measured].
+- Vesper Vale (carry): Bruiser Strength shards/emblems as main stack; add Power Strength once Bruiser caps.
+- Vendetta (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
+- Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
+- Marcella (carry): Bruiser Focus shards/emblems as main stack; add Power Focus once Bruiser caps.
+- Tavi (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 13.3 consumables/game here); TP crystal(s) REQUIRED — this map has terrain-separated camps.
+
+### Traversal / positioning
+
+- Wide spread (one champ per camp cluster, matching the measured winner spread above), regroup on enemy sighting within ~12 tiles.
+- Bank at the nearest of 4 altars; tribute when a carrier holds ~52 gems or when an enemy is chasing — losing carried gems is the main way games here are lost.
+
+---
+*Unvalidated plan derived from data; test locally before adopting.*

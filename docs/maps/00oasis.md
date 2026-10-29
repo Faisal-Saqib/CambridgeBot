@@ -1,31 +1,50 @@
-# 00oasis - map strategy worksheet
+# 00oasis strategy
 
-<!-- Generated from frozen campaign results by scripts/map_campaign.py. -->
+**Class:** sparse | **Size:** 29x29 | **Picks:** 4 | **Altars:** 2 | **Camp groups:** 10
 
-Fixed baseline: v22. Coverage: **5/5 opponents**. Record: **3-2**.
+## Map facts [derived]
 
-## Map evidence
+- Gems 124 (31/champ), gold 860 (215/champ), camp HP per gem 157.
+- Gem concentration: top 29%, center 0%, monolith-held 0%, harmless camps 0%.
+- Camp density 147.4; brawl flag: False.
 
-- 29x29; 2 altars; 124 static gems
-- Largest group: 36 gems, summed base strength 120
+## What top-20 teams did here [measured]
 
-Shape facts are from the earlier frozen map scan. Match IDs below resolve to tested map hashes in the stored summaries.
+- Sample: 27 team-games, 13 wins.
+- Winning drafts: Marcella, Vendetta, Vesper Vale, Willow (3w); Cassi & Issac, Heart of Ruin, Vendetta, Vesper Vale (3w); Marcella, Ryth, Tavi, Vendetta (2w)
+- Champions in winning drafts: Vesper Vale (10w), Vendetta (10w), Marcella (9w), Heart of Ruin (8w), Ryth (6w), Willow (3w), Cassi & Issac (3w), Tavi (2w)
+- Winners: kills 20.3, deaths 10.8, tribute 32.1 gems, wards 215, farm spread 11.1 tiles.
+- Winner item families: Bruiser×2075, Other×213, Durability×179, Jungle×138, Treasure×119, Monster×65
+- Winner consumables: Altar Lock×51, Teleport Crystal×16
 
-## Results
+## Our record here [measured]
 
-| Opponent | Side | Result | Gems us/them | Deaths us/them | Our gems lost | Match ID |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ascendance | b | loss | 110/1022 | 33/5 | 56 | 110d8045-e844-4a06-89c0-decf57c2fe4c |
-| eclipsed Sunlight | a | win | 1008/772 | 47/44 | 91 | 3b6c4b08-3a45-471d-b1f3-50892521e870 |
-| The World Machine | b | win | 1020/108 | 15/38 | 98 | 8841163c-6782-4232-9a52-75509081810b |
-| Princess Donut the Queen Anne Chonk | a | win | 1006/208 | 8/25 | 12 | 2883d4ac-5685-41c2-9138-8cc7dc1791c6 |
-| Knoobs | b | loss | 198/818 | 64/16 | 144 | a2c8fbf7-5239-4c5a-9950-118160f802f8 |
+- v22 campaign vs five ~peer teams: 3/5 wins (results/b*.json).
 
-## Interpretation and next experiment
+## Recommended plan
 
-- Collected 3787; submitted 3342; lost 401 carried gems.
-- Deaths 167 versus 128; fuel exhaustion 0; bot faults 0.
-- Investigate a dedicated map profile before changing global behavior.
-- Inspect actual loss events and routes; low submission alone does not prove a banking-threshold problem.
+### Draft
 
-These are hypotheses for controlled follow-up, not a validated optimal strategy. The completed design uses five real opponent snapshots with a 3/2 side balance. No map-specific bot change is enabled by this report.
+- Primary: copy the most-frequent winning draft here — **Marcella, Vendetta, Vesper Vale, Willow** [measured].
+- Fallback: **Vesper Vale, Vendetta, Heart of Ruin, Marcella** — low-economy map; carry + efficient clearers, skip Willow [hypothesis].
+
+### Camp targets
+
+- Only 31 gems/champ [derived]. Take high-value camps within ~15 tiles of spawn; skip far low-value trips (travel dominates on sparse maps).
+
+### Items / shards / emblems
+
+- Opening (everyone): Monster + Jungle Health for early clear and sustain — matches every top-20 opening [measured].
+- Vesper Vale (carry): Bruiser Strength shards/emblems as main stack; add Power Strength once Bruiser caps.
+- Vendetta (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
+- Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
+- Marcella (carry): Bruiser Focus shards/emblems as main stack; add Power Focus once Bruiser caps.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 5.2 consumables/game here); TP crystal(s) for carrier escapes.
+
+### Traversal / positioning
+
+- Wide spread (one champ per camp cluster, matching the measured winner spread above), regroup on enemy sighting within ~12 tiles.
+- Bank at the nearest of 2 altars; tribute when a carrier holds ~32 gems or when an enemy is chasing — losing carried gems is the main way games here are lost.
+
+---
+*Unvalidated plan derived from data; test locally before adopting.*

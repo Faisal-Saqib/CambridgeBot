@@ -1,0 +1,6165 @@
+[
+ {
+  "team": "Mite",
+  "rank": 3,
+  "map": "00the_line",
+  "side": "a",
+  "res": "loss",
+  "us": 0,
+  "them": 1024,
+  "d": 16,
+  "k": 0,
+  "td": 0,
+  "camp": 2285,
+  "tcamp": 40379,
+  "gold": 0,
+  "tgold": 2748,
+  "lost": 0,
+  "rounds": 527,
+  "faults": 0,
+  "our": [
+   "Vesper Vale",
+   "Marcella",
+   "Ryth",
+   "Tavi"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Cassi",
+   "Issac"
+  ],
+  "cur": {
+   "uearn100": 0,
+   "uearn300": 0,
+   "uearn600": 0,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 3,
+   "udeat300": 9,
+   "udeat600": 16,
+   "umons100": 750,
+   "umons300": 915,
+   "umons600": 2285,
+   "tearn100": 393,
+   "tearn300": 1545,
+   "tearn600": 2748,
+   "tsubm100": 0,
+   "tsubm300": 511,
+   "tsubm600": 1024,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 5228,
+   "tmons300": 21944,
+   "tmons600": 40379
+  },
+  "champs": {
+   "Vesper Vale": [
+    675,
+    4,
+    0,
+    0
+   ],
+   "Marcella": [
+    210,
+    2,
+    0,
+    0
+   ],
+   "Ryth": [
+    800,
+    4,
+    0,
+    0
+   ],
+   "Tavi": [
+    600,
+    6,
+    0,
+    0
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    7810,
+    0,
+    3,
+    758,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "Captures-Strength",
+      "2"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    13805,
+    0,
+    4,
+    820,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "2"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    7085,
+    0,
+    2,
+    350,
+    [
+     [
+      "Monsters-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Cassi": [
+    5053,
+    0,
+    4,
+    400,
+    [
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Issac": [
+    6624,
+    0,
+    3,
+    420,
+    [
+     [
+      "Monsters-Strength",
+      "4"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Mite",
+  "rank": 3,
+  "map": "00great_wall",
+  "side": "b",
+  "res": "loss",
+  "us": 317,
+  "them": 1066,
+  "d": 5,
+  "k": 0,
+  "td": 1,
+  "camp": 48419,
+  "tcamp": 111153,
+  "gold": 1966,
+  "tgold": 5192,
+  "lost": 152,
+  "rounds": 750,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Tavi",
+   "Marcella"
+  ],
+  "cur": {
+   "tearn100": 403,
+   "tearn300": 1320,
+   "tearn600": 3782,
+   "tsubm100": 0,
+   "tsubm300": 164,
+   "tsubm600": 645,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 9960,
+   "tmons300": 33044,
+   "tmons600": 83843,
+   "uearn100": 273,
+   "uearn300": 891,
+   "uearn600": 1643,
+   "usubm100": 0,
+   "usubm300": 101,
+   "usubm600": 289,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 3,
+   "umons100": 7255,
+   "umons300": 21632,
+   "umons600": 37882
+  },
+  "champs": {
+   "Willow": [
+    3370,
+    1,
+    0,
+    140
+   ],
+   "Vesper Vale": [
+    8785,
+    2,
+    0,
+    186
+   ],
+   "Ryth": [
+    9420,
+    0,
+    0,
+    300
+   ],
+   "Tavi": [
+    14960,
+    1,
+    0,
+    600
+   ],
+   "Marcella": [
+    11884,
+    1,
+    0,
+    740
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    17544,
+    0,
+    0,
+    678,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "Durabilitys-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "2"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    30156,
+    0,
+    0,
+    1185,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "2"
+     ],
+     [
+      "Collectorss-Strength",
+      "4"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    21253,
+    1,
+    1,
+    1240,
+    [
+     [
+      "MonsterE-Health",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Tavi": [
+    13890,
+    0,
+    2,
+    400,
+    [
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    28308,
+    0,
+    2,
+    1689,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "Powers-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "4"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Mite",
+  "rank": 3,
+  "map": "01boss_battle",
+  "side": "a",
+  "res": "loss",
+  "us": 0,
+  "them": 1064,
+  "d": 4,
+  "k": 0,
+  "td": 0,
+  "camp": 336930,
+  "tcamp": 599249,
+  "gold": 13906,
+  "tgold": 28486,
+  "lost": 1819,
+  "rounds": 1143,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Tavi",
+   "Marcella"
+  ],
+  "cur": {
+   "uearn100": 413,
+   "uearn300": 1891,
+   "uearn600": 5253,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 0,
+   "umons100": 12222,
+   "umons300": 42125,
+   "umons600": 123014,
+   "tearn100": 598,
+   "tearn300": 3469,
+   "tearn600": 12058,
+   "tsubm100": 0,
+   "tsubm300": 0,
+   "tsubm600": 0,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 15028,
+   "tmons300": 78284,
+   "tmons600": 252179
+  },
+  "champs": {
+   "Willow": [
+    15736,
+    0,
+    0,
+    660
+   ],
+   "Vesper Vale": [
+    79915,
+    1,
+    0,
+    2181
+   ],
+   "Ryth": [
+    70996,
+    1,
+    0,
+    2730
+   ],
+   "Tavi": [
+    76353,
+    1,
+    0,
+    2740
+   ],
+   "Marcella": [
+    93928,
+    1,
+    0,
+    5595
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    200800,
+    0,
+    0,
+    9095,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "3"
+     ],
+     [
+      "BruiserE-Strength",
+      "37"
+     ],
+     [
+      "BruiserE-Health",
+      "16"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "2"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    172529,
+    0,
+    1,
+    6383,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "17"
+     ],
+     [
+      "Bruisers-Health",
+      "4"
+     ],
+     [
+      "BruiserE-Health",
+      "17"
+     ],
+     [
+      "CaptureE-Strength",
+      "2"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    59765,
+    0,
+    1,
+    4745,
+    [
+     [
+      "MonsterE-Health",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "3"
+     ],
+     [
+      "BruiserE-Focus",
+      "22"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Tavi": [
+    90493,
+    0,
+    0,
+    2985,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "4"
+     ],
+     [
+      "BruiserE-Strength",
+      "10"
+     ],
+     [
+      "BruiserE-Health",
+      "4"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    75662,
+    0,
+    2,
+    5278,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "PowerE-Focus",
+      "27"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Mite",
+  "rank": 3,
+  "map": "00expanse",
+  "side": "b",
+  "res": "loss",
+  "us": 357,
+  "them": 1018,
+  "d": 1,
+  "k": 0,
+  "td": 0,
+  "camp": 78895,
+  "tcamp": 164368,
+  "gold": 4436,
+  "tgold": 8476,
+  "lost": 12,
+  "rounds": 845,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Tavi",
+   "Marcella"
+  ],
+  "cur": {
+   "tearn100": 620,
+   "tearn300": 2194,
+   "tearn600": 5077,
+   "tsubm100": 34,
+   "tsubm300": 136,
+   "tsubm600": 477,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 10469,
+   "tmons300": 38322,
+   "tmons600": 91397,
+   "uearn100": 389,
+   "uearn300": 1051,
+   "uearn600": 2779,
+   "usubm100": 0,
+   "usubm300": 49,
+   "usubm600": 166,
+   "udeat100": 0,
+   "udeat300": 1,
+   "udeat600": 1,
+   "umons100": 6300,
+   "umons300": 17213,
+   "umons600": 45179
+  },
+  "champs": {
+   "Willow": [
+    12357,
+    0,
+    0,
+    680
+   ],
+   "Vesper Vale": [
+    13391,
+    1,
+    0,
+    834
+   ],
+   "Ryth": [
+    21384,
+    0,
+    0,
+    990
+   ],
+   "Tavi": [
+    14713,
+    0,
+    0,
+    500
+   ],
+   "Marcella": [
+    17048,
+    0,
+    0,
+    1432
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    32961,
+    0,
+    0,
+    2307,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "3"
+     ],
+     [
+      "BruiserE-Strength",
+      "4"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "2"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    32369,
+    0,
+    1,
+    1290,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ],
+     [
+      "CaptureE-Strength",
+      "2"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    32777,
+    0,
+    0,
+    1530,
+    [
+     [
+      "MonsterE-Health",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "4"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Tavi": [
+    26956,
+    0,
+    0,
+    1200,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "3"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    39303,
+    0,
+    0,
+    2149,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "Powers-Focus",
+      "3"
+     ],
+     [
+      "PowerE-Focus",
+      "6"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Mite",
+  "rank": 3,
+  "map": "00crater",
+  "side": "a",
+  "res": "loss",
+  "us": 33,
+  "them": 1005,
+  "d": 17,
+  "k": 1,
+  "td": 1,
+  "camp": 24318,
+  "tcamp": 74285,
+  "gold": 801,
+  "tgold": 4768,
+  "lost": 134,
+  "rounds": 841,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Tavi",
+   "Marcella"
+  ],
+  "cur": {
+   "uearn100": 250,
+   "uearn300": 411,
+   "uearn600": 531,
+   "usubm100": 0,
+   "usubm300": 22,
+   "usubm600": 33,
+   "udeat100": 2,
+   "udeat300": 5,
+   "udeat600": 10,
+   "umons100": 3549,
+   "umons300": 9927,
+   "umons600": 19001,
+   "tearn100": 240,
+   "tearn300": 1169,
+   "tearn600": 3097,
+   "tsubm100": 0,
+   "tsubm300": 99,
+   "tsubm600": 621,
+   "tdeat100": 1,
+   "tdeat300": 1,
+   "tdeat600": 1,
+   "tmons100": 5060,
+   "tmons300": 21207,
+   "tmons600": 50028
+  },
+  "champs": {
+   "Willow": [
+    2674,
+    5,
+    0,
+    190
+   ],
+   "Vesper Vale": [
+    6445,
+    2,
+    0,
+    159
+   ],
+   "Ryth": [
+    5062,
+    4,
+    1,
+    160
+   ],
+   "Tavi": [
+    7042,
+    2,
+    0,
+    90
+   ],
+   "Marcella": [
+    3094,
+    4,
+    0,
+    202
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    13322,
+    0,
+    2,
+    718,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    17788,
+    0,
+    4,
+    945,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ],
+     [
+      "Captures-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    13039,
+    1,
+    2,
+    720,
+    [
+     [
+      "MonsterE-Health",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "3"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Tavi": [
+    13279,
+    0,
+    2,
+    425,
+    [
+     [
+      "Monsters-Strength",
+      "2"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "2"
+     ]
+    ]
+   ],
+   "Marcella": [
+    16854,
+    0,
+    7,
+    1960,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "Powers-Focus",
+      "1"
+     ],
+     [
+      "PowerE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "5"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Intercontinental Fish",
+  "rank": 2,
+  "map": "00the_line",
+  "side": "b",
+  "res": "loss",
+  "us": 0,
+  "them": 1078,
+  "d": 15,
+  "k": 5,
+  "td": 8,
+  "camp": 5639,
+  "tcamp": 29268,
+  "gold": 566,
+  "tgold": 2309,
+  "lost": 0,
+  "rounds": 623,
+  "faults": 0,
+  "our": [
+   "Vesper Vale",
+   "Marcella",
+   "Ryth",
+   "Tavi"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Cassi",
+   "Issac"
+  ],
+  "cur": {
+   "tearn100": 479,
+   "tearn300": 719,
+   "tearn600": 2249,
+   "tsubm100": 161,
+   "tsubm300": 495,
+   "tsubm600": 996,
+   "tdeat100": 0,
+   "tdeat300": 4,
+   "tdeat600": 8,
+   "tmons100": 3700,
+   "tmons300": 13218,
+   "tmons600": 26328,
+   "uearn100": 0,
+   "uearn300": 366,
+   "uearn600": 566,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 4,
+   "udeat300": 5,
+   "udeat600": 15,
+   "umons100": 960,
+   "umons300": 4115,
+   "umons600": 5639
+  },
+  "champs": {
+   "Vesper Vale": [
+    1377,
+    5,
+    2,
+    266
+   ],
+   "Marcella": [
+    848,
+    2,
+    2,
+    200
+   ],
+   "Ryth": [
+    1520,
+    4,
+    0,
+    0
+   ],
+   "Tavi": [
+    1893,
+    4,
+    1,
+    100
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    7087,
+    0,
+    1,
+    676,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    9282,
+    1,
+    4,
+    420,
+    [
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "3"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    4920,
+    1,
+    6,
+    743,
+    [
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "4"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ]
+    ]
+   ],
+   "Cassi": [
+    3617,
+    3,
+    1,
+    160,
+    [
+     [
+      "Powers-Focus",
+      "3"
+     ]
+    ]
+   ],
+   "Issac": [
+    4361,
+    3,
+    3,
+    310,
+    [
+     [
+      "Powers-Strength",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Intercontinental Fish",
+  "rank": 2,
+  "map": "00great_wall",
+  "side": "a",
+  "res": "loss",
+  "us": 504,
+  "them": 1014,
+  "d": 2,
+  "k": 1,
+  "td": 3,
+  "camp": 60366,
+  "tcamp": 117060,
+  "gold": 2625,
+  "tgold": 5571,
+  "lost": 60,
+  "rounds": 835,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Cassi",
+   "Issac",
+   "Marcella"
+  ],
+  "cur": {
+   "uearn100": 313,
+   "uearn300": 935,
+   "uearn600": 1705,
+   "usubm100": 0,
+   "usubm300": 109,
+   "usubm600": 302,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 1,
+   "umons100": 8378,
+   "umons300": 21015,
+   "umons600": 41539,
+   "tearn100": 243,
+   "tearn300": 1368,
+   "tearn600": 3593,
+   "tsubm100": 0,
+   "tsubm300": 160,
+   "tsubm600": 560,
+   "tdeat100": 1,
+   "tdeat300": 1,
+   "tdeat600": 1,
+   "tmons100": 8136,
+   "tmons300": 32574,
+   "tmons600": 76298
+  },
+  "champs": {
+   "Willow": [
+    3795,
+    0,
+    0,
+    160
+   ],
+   "Vesper Vale": [
+    15129,
+    0,
+    0,
+    633
+   ],
+   "Ryth": [
+    10185,
+    0,
+    0,
+    400
+   ],
+   "Tavi": [
+    16993,
+    2,
+    0,
+    480
+   ],
+   "Marcella": [
+    14263,
+    0,
+    1,
+    952
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    42440,
+    0,
+    0,
+    1685,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "7"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    23090,
+    0,
+    1,
+    1455,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Strength",
+      "5"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    17241,
+    1,
+    0,
+    641,
+    [
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ]
+    ]
+   ],
+   "Cassi": [
+    15165,
+    1,
+    0,
+    40,
+    []
+   ],
+   "Issac": [
+    9059,
+    1,
+    0,
+    190,
+    [
+     [
+      "Treasures-Strength",
+      "2"
+     ]
+    ]
+   ],
+   "Marcella": [
+    10062,
+    0,
+    0,
+    1560,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "3"
+     ],
+     [
+      "BruiserE-Strength",
+      "5"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Intercontinental Fish",
+  "rank": 2,
+  "map": "01boss_battle",
+  "side": "b",
+  "res": "loss",
+  "us": 889,
+  "them": 1158,
+  "d": 16,
+  "k": 8,
+  "td": 16,
+  "camp": 225510,
+  "tcamp": 434196,
+  "gold": 11311,
+  "tgold": 18286,
+  "lost": 541,
+  "rounds": 1607,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Cassi",
+   "Issac",
+   "Marcella"
+  ],
+  "cur": {
+   "tearn100": 627,
+   "tearn300": 2997,
+   "tearn600": 7141,
+   "tsubm100": 0,
+   "tsubm300": 0,
+   "tsubm600": 0,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 2,
+   "tmons100": 19501,
+   "tmons300": 66909,
+   "tmons600": 176948,
+   "uearn100": 243,
+   "uearn300": 1712,
+   "uearn600": 4473,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 0,
+   "umons100": 10822,
+   "umons300": 37853,
+   "umons600": 105832
+  },
+  "champs": {
+   "Willow": [
+    20496,
+    5,
+    0,
+    430
+   ],
+   "Vesper Vale": [
+    32690,
+    4,
+    1,
+    819
+   ],
+   "Ryth": [
+    65770,
+    3,
+    0,
+    3645
+   ],
+   "Tavi": [
+    24332,
+    4,
+    0,
+    340
+   ],
+   "Marcella": [
+    82221,
+    0,
+    7,
+    6077
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    107873,
+    4,
+    5,
+    5095,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "4"
+     ],
+     [
+      "BruiserE-Strength",
+      "27"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    52833,
+    3,
+    1,
+    2139,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "10"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    38940,
+    1,
+    0,
+    2424,
+    [
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "3"
+     ],
+     [
+      "BruiserE-Health",
+      "9"
+     ]
+    ]
+   ],
+   "Cassi": [
+    44396,
+    4,
+    0,
+    930,
+    [
+     [
+      "PowerE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "4"
+     ]
+    ]
+   ],
+   "Issac": [
+    18191,
+    4,
+    1,
+    185,
+    [
+     [
+      "TreasureE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    171960,
+    0,
+    7,
+    7513,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "4"
+     ],
+     [
+      "BruiserE-Strength",
+      "45"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Intercontinental Fish",
+  "rank": 2,
+  "map": "00expanse",
+  "side": "a",
+  "res": "loss",
+  "us": 485,
+  "them": 1017,
+  "d": 0,
+  "k": 0,
+  "td": 2,
+  "camp": 96270,
+  "tcamp": 175020,
+  "gold": 5767,
+  "tgold": 8484,
+  "lost": 0,
+  "rounds": 959,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Varg",
+   "Cassi",
+   "Issac"
+  ],
+  "cur": {
+   "uearn100": 389,
+   "uearn300": 1377,
+   "uearn600": 3327,
+   "usubm100": 15,
+   "usubm300": 49,
+   "usubm600": 173,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 0,
+   "umons100": 6945,
+   "umons300": 14850,
+   "umons600": 48222,
+   "tearn100": 423,
+   "tearn300": 1599,
+   "tearn600": 4279,
+   "tsubm100": 30,
+   "tsubm300": 131,
+   "tsubm600": 446,
+   "tdeat100": 0,
+   "tdeat300": 2,
+   "tdeat600": 2,
+   "tmons100": 10930,
+   "tmons300": 34656,
+   "tmons600": 88704
+  },
+  "champs": {
+   "Willow": [
+    17336,
+    0,
+    0,
+    1175
+   ],
+   "Vesper Vale": [
+    15071,
+    0,
+    0,
+    873
+   ],
+   "Ryth": [
+    24796,
+    0,
+    0,
+    1225
+   ],
+   "Tavi": [
+    15226,
+    0,
+    0,
+    730
+   ],
+   "Marcella": [
+    23838,
+    0,
+    0,
+    1764
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    34752,
+    0,
+    0,
+    1724,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "Powers-Strength",
+      "3"
+     ],
+     [
+      "PowerE-Strength",
+      "5"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    35306,
+    1,
+    0,
+    1780,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "Powers-Strength",
+      "2"
+     ],
+     [
+      "PowerE-Strength",
+      "8"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    29208,
+    0,
+    0,
+    1850,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "Powers-Focus",
+      "4"
+     ],
+     [
+      "PowerE-Focus",
+      "9"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Varg": [
+    36619,
+    1,
+    0,
+    1740,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "PowerE-Strength",
+      "9"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Cassi": [
+    19615,
+    0,
+    0,
+    910,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "PowerE-Focus",
+      "4"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Issac": [
+    19517,
+    0,
+    0,
+    480,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "Powers-Strength",
+      "1"
+     ],
+     [
+      "PowerE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Intercontinental Fish",
+  "rank": 2,
+  "map": "00crater",
+  "side": "b",
+  "res": "loss",
+  "us": 29,
+  "them": 1001,
+  "d": 24,
+  "k": 1,
+  "td": 4,
+  "camp": 18930,
+  "tcamp": 73059,
+  "gold": 457,
+  "tgold": 6153,
+  "lost": 33,
+  "rounds": 793,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Heart of Ruin",
+   "Cassi",
+   "Issac",
+   "Marcella"
+  ],
+  "cur": {
+   "tearn100": 571,
+   "tearn300": 2059,
+   "tearn600": 4390,
+   "tsubm100": 72,
+   "tsubm300": 320,
+   "tsubm600": 682,
+   "tdeat100": 3,
+   "tdeat300": 4,
+   "tdeat600": 4,
+   "tmons100": 6634,
+   "tmons300": 21216,
+   "tmons600": 53509,
+   "uearn100": 60,
+   "uearn300": 280,
+   "uearn600": 457,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 29,
+   "udeat100": 4,
+   "udeat300": 10,
+   "udeat600": 18,
+   "umons100": 3756,
+   "umons300": 8443,
+   "umons600": 16445
+  },
+  "champs": {
+   "Willow": [
+    1355,
+    6,
+    0,
+    0
+   ],
+   "Vesper Vale": [
+    4150,
+    5,
+    0,
+    79
+   ],
+   "Ryth": [
+    3844,
+    4,
+    1,
+    160
+   ],
+   "Tavi": [
+    4055,
+    6,
+    0,
+    0
+   ],
+   "Marcella": [
+    5526,
+    3,
+    0,
+    218
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    14031,
+    1,
+    2,
+    1275,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Strength",
+      "4"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    11678,
+    0,
+    3,
+    718,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    7541,
+    1,
+    1,
+    285,
+    [
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "Jungles-Focus",
+      "4"
+     ]
+    ]
+   ],
+   "Cassi": [
+    13113,
+    1,
+    1,
+    293,
+    [
+     [
+      "PowerE-Focus",
+      "1"
+     ],
+     [
+      "Durabilitys-Focus",
+      "3"
+     ]
+    ]
+   ],
+   "Issac": [
+    8774,
+    1,
+    4,
+    478,
+    [
+     [
+      "PowerE-Strength",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "HomeE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    17920,
+    0,
+    12,
+    3104,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Strength",
+      "16"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "newer team",
+  "rank": 4,
+  "map": "00the_line",
+  "side": "a",
+  "res": "loss",
+  "us": 0,
+  "them": 1009,
+  "d": 12,
+  "k": 2,
+  "td": 3,
+  "camp": 1925,
+  "tcamp": 35995,
+  "gold": 233,
+  "tgold": 3236,
+  "lost": 0,
+  "rounds": 591,
+  "faults": 0,
+  "our": [
+   "Vesper Vale",
+   "Marcella",
+   "Ryth",
+   "Tavi"
+  ],
+  "their": [
+   "Cassi",
+   "Issac",
+   "Prism",
+   "Marcella",
+   "Willow"
+  ],
+  "cur": {
+   "uearn100": 133,
+   "uearn300": 233,
+   "uearn600": 233,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 0,
+   "udeat300": 3,
+   "udeat600": 12,
+   "umons100": 415,
+   "umons300": 1075,
+   "umons600": 1925,
+   "tearn100": 0,
+   "tearn300": 1015,
+   "tearn600": 3236,
+   "tsubm100": 0,
+   "tsubm300": 378,
+   "tsubm600": 1009,
+   "tdeat100": 2,
+   "tdeat300": 3,
+   "tdeat600": 3,
+   "tmons100": 4015,
+   "tmons300": 13730,
+   "tmons600": 35995
+  },
+  "champs": {
+   "Vesper Vale": [
+    450,
+    3,
+    1,
+    133
+   ],
+   "Marcella": [
+    30,
+    4,
+    1,
+    100
+   ],
+   "Ryth": [
+    1325,
+    3,
+    0,
+    0
+   ],
+   "Tavi": [
+    120,
+    2,
+    0,
+    0
+   ]
+  },
+  "tchamps": {
+   "Cassi": [
+    6886,
+    1,
+    3,
+    490,
+    [
+     [
+      "Jungles-Focus",
+      "2"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Issac": [
+    4976,
+    1,
+    2,
+    390,
+    [
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "Captures-Strength",
+      "2"
+     ],
+     [
+      "ProspectorE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Prism": [
+    7899,
+    1,
+    0,
+    120,
+    []
+   ],
+   "Marcella": [
+    6923,
+    0,
+    7,
+    1991,
+    [
+     [
+      "BruiserE-Focus",
+      "2"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Health",
+      "1"
+     ],
+     [
+      "Hunters-Focus",
+      "4"
+     ]
+    ]
+   ],
+   "Willow": [
+    9310,
+    0,
+    0,
+    245,
+    [
+     [
+      "Jungles-Strength",
+      "3"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "newer team",
+  "rank": 4,
+  "map": "00great_wall",
+  "side": "b",
+  "res": "loss",
+  "us": 385,
+  "them": 1017,
+  "d": 2,
+  "k": 0,
+  "td": 0,
+  "camp": 58022,
+  "tcamp": 83640,
+  "gold": 2440,
+  "tgold": 3731,
+  "lost": 80,
+  "rounds": 821,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Ryth",
+   "Vesper Vale",
+   "Vendetta",
+   "Prism",
+   "Heart of Ruin"
+  ],
+  "cur": {
+   "tearn100": 329,
+   "tearn300": 1079,
+   "tearn600": 2470,
+   "tsubm100": 0,
+   "tsubm300": 152,
+   "tsubm600": 525,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 11567,
+   "tmons300": 29966,
+   "tmons600": 58403,
+   "uearn100": 273,
+   "uearn300": 831,
+   "uearn600": 1775,
+   "usubm100": 0,
+   "usubm300": 87,
+   "usubm600": 255,
+   "udeat100": 0,
+   "udeat300": 1,
+   "udeat600": 1,
+   "umons100": 7255,
+   "umons300": 19852,
+   "umons600": 39714
+  },
+  "champs": {
+   "Willow": [
+    5690,
+    2,
+    0,
+    180
+   ],
+   "Vesper Vale": [
+    12574,
+    0,
+    0,
+    492
+   ],
+   "Ryth": [
+    11439,
+    0,
+    0,
+    340
+   ],
+   "Tavi": [
+    14856,
+    0,
+    0,
+    440
+   ],
+   "Marcella": [
+    13462,
+    0,
+    0,
+    988
+   ]
+  },
+  "tchamps": {
+   "Ryth": [
+    11000,
+    0,
+    0,
+    610,
+    [
+     [
+      "Durabilitys-Health",
+      "3"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Vesper Vale": [
+    12600,
+    0,
+    1,
+    1046,
+    [
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    18930,
+    0,
+    0,
+    635,
+    [
+     [
+      "Monsters-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "HunterE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Prism": [
+    20467,
+    0,
+    0,
+    420,
+    [
+     [
+      "Captures-Focus",
+      "2"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    20640,
+    0,
+    1,
+    1020,
+    [
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "3"
+     ],
+     [
+      "CaptureE-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ],
+     [
+      "HunterE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "newer team",
+  "rank": 4,
+  "map": "01boss_battle",
+  "side": "a",
+  "res": "loss",
+  "us": 0,
+  "them": 1010,
+  "d": 4,
+  "k": 0,
+  "td": 1,
+  "camp": 83288,
+  "tcamp": 205553,
+  "gold": 3908,
+  "tgold": 9407,
+  "lost": 378,
+  "rounds": 727,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Vendetta",
+   "Prism",
+   "Willow",
+   "Varg"
+  ],
+  "cur": {
+   "uearn100": 413,
+   "uearn300": 1872,
+   "uearn600": 3908,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 0,
+   "udeat300": 1,
+   "udeat600": 2,
+   "umons100": 12222,
+   "umons300": 38190,
+   "umons600": 82800,
+   "tearn100": 865,
+   "tearn300": 4539,
+   "tearn600": 8418,
+   "tsubm100": 0,
+   "tsubm300": 0,
+   "tsubm600": 357,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 1,
+   "tmons100": 21165,
+   "tmons300": 83313,
+   "tmons600": 186925
+  },
+  "champs": {
+   "Willow": [
+    6995,
+    1,
+    0,
+    220
+   ],
+   "Vesper Vale": [
+    19087,
+    0,
+    0,
+    598
+   ],
+   "Ryth": [
+    21091,
+    1,
+    0,
+    1330
+   ],
+   "Tavi": [
+    14581,
+    1,
+    0,
+    230
+   ],
+   "Marcella": [
+    21531,
+    1,
+    0,
+    1530
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    62343,
+    0,
+    2,
+    3177,
+    [
+     [
+      "PowerE-Strength",
+      "5"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "7"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    28462,
+    1,
+    0,
+    1487,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "HunterE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Prism": [
+    32454,
+    0,
+    0,
+    1709,
+    [
+     [
+      "MonsterE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "4"
+     ],
+     [
+      "BruiserE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Willow": [
+    9584,
+    0,
+    0,
+    613,
+    [
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Varg": [
+    72708,
+    0,
+    1,
+    2421,
+    [
+     [
+      "PowerE-Strength",
+      "2"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "8"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "newer team",
+  "rank": 4,
+  "map": "00expanse",
+  "side": "b",
+  "res": "loss",
+  "us": 457,
+  "them": 1010,
+  "d": 0,
+  "k": 0,
+  "td": 0,
+  "camp": 97660,
+  "tcamp": 160508,
+  "gold": 5759,
+  "tgold": 8126,
+  "lost": 15,
+  "rounds": 883,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vendetta",
+   "Cassi",
+   "Issac",
+   "Marcella",
+   "Varg",
+   "Heart of Ruin"
+  ],
+  "cur": {
+   "tearn100": 550,
+   "tearn300": 2082,
+   "tearn600": 5099,
+   "tsubm100": 23,
+   "tsubm300": 185,
+   "tsubm600": 537,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 12795,
+   "tmons300": 44069,
+   "tmons600": 98435,
+   "uearn100": 389,
+   "uearn300": 1443,
+   "uearn600": 3651,
+   "usubm100": 0,
+   "usubm300": 53,
+   "usubm600": 185,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 0,
+   "umons100": 7100,
+   "umons300": 19530,
+   "umons600": 54390
+  },
+  "champs": {
+   "Willow": [
+    15615,
+    0,
+    0,
+    930
+   ],
+   "Vesper Vale": [
+    26280,
+    0,
+    0,
+    1794
+   ],
+   "Ryth": [
+    15702,
+    0,
+    0,
+    900
+   ],
+   "Tavi": [
+    23905,
+    0,
+    0,
+    790
+   ],
+   "Marcella": [
+    16155,
+    0,
+    0,
+    1345
+   ]
+  },
+  "tchamps": {
+   "Vendetta": [
+    27900,
+    0,
+    0,
+    1017,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "Durabilitys-Health",
+      "3"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "HunterE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Cassi": [
+    17145,
+    0,
+    0,
+    946,
+    [
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "4"
+     ],
+     [
+      "BruiserE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Issac": [
+    18252,
+    0,
+    0,
+    989,
+    [
+     [
+      "Powers-Strength",
+      "2"
+     ],
+     [
+      "PowerE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    26273,
+    0,
+    0,
+    1760,
+    [
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "4"
+     ],
+     [
+      "BruiserE-Focus",
+      "4"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Varg": [
+    44313,
+    0,
+    0,
+    2294,
+    [
+     [
+      "PowerE-Strength",
+      "3"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "5"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    26624,
+    0,
+    0,
+    1120,
+    [
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "2"
+     ],
+     [
+      "BruiserE-Focus",
+      "3"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ],
+     [
+      "HunterE-Strength",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "newer team",
+  "rank": 4,
+  "map": "00crater",
+  "side": "a",
+  "res": "loss",
+  "us": 134,
+  "them": 1020,
+  "d": 19,
+  "k": 0,
+  "td": 1,
+  "camp": 22466,
+  "tcamp": 81125,
+  "gold": 805,
+  "tgold": 5083,
+  "lost": 51,
+  "rounds": 867,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Prism",
+   "Marcella",
+   "Willow",
+   "Tavi",
+   "Heart of Ruin"
+  ],
+  "cur": {
+   "uearn100": 100,
+   "uearn300": 260,
+   "uearn600": 685,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 134,
+   "udeat100": 3,
+   "udeat300": 6,
+   "udeat600": 11,
+   "umons100": 3180,
+   "umons300": 8160,
+   "umons600": 15343,
+   "tearn100": 430,
+   "tearn300": 1170,
+   "tearn600": 2752,
+   "tsubm100": 36,
+   "tsubm300": 65,
+   "tsubm600": 231,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 7636,
+   "tmons300": 18522,
+   "tmons600": 50758
+  },
+  "champs": {
+   "Willow": [
+    3248,
+    4,
+    0,
+    130
+   ],
+   "Vesper Vale": [
+    3587,
+    3,
+    0,
+    79
+   ],
+   "Ryth": [
+    4970,
+    5,
+    0,
+    160
+   ],
+   "Tavi": [
+    5141,
+    6,
+    0,
+    60
+   ],
+   "Marcella": [
+    5520,
+    1,
+    0,
+    376
+   ]
+  },
+  "tchamps": {
+   "Prism": [
+    35063,
+    0,
+    6,
+    1715,
+    [
+     [
+      "MonsterE-Health",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "2"
+     ],
+     [
+      "BruiserE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    11541,
+    0,
+    5,
+    1514,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "4"
+     ],
+     [
+      "BruiserE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "HunterE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Willow": [
+    11282,
+    0,
+    0,
+    250,
+    [
+     [
+      "Jungles-Strength",
+      "2"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Tavi": [
+    10179,
+    1,
+    1,
+    320,
+    [
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    13057,
+    0,
+    7,
+    1284,
+    [
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "2"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Health",
+      "1"
+     ],
+     [
+      "HunterE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Ad Astra",
+  "rank": 8,
+  "map": "00the_line",
+  "side": "b",
+  "res": "loss",
+  "us": 0,
+  "them": 1013,
+  "d": 16,
+  "k": 1,
+  "td": 1,
+  "camp": 6440,
+  "tcamp": 35290,
+  "gold": 160,
+  "tgold": 5291,
+  "lost": 4,
+  "rounds": 500,
+  "faults": 0,
+  "our": [
+   "Vesper Vale",
+   "Marcella",
+   "Ryth",
+   "Tavi"
+  ],
+  "their": [
+   "Heart of Ruin",
+   "Marcella",
+   "Vesper Vale",
+   "Ryth"
+  ],
+  "cur": {
+   "tearn100": 867,
+   "tearn300": 2721,
+   "tearn600": 5291,
+   "tsubm100": 161,
+   "tsubm300": 384,
+   "tsubm600": 1013,
+   "tdeat100": 1,
+   "tdeat300": 1,
+   "tdeat600": 1,
+   "tmons100": 3581,
+   "tmons300": 19763,
+   "tmons600": 35290,
+   "uearn100": 100,
+   "uearn300": 160,
+   "uearn600": 160,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 4,
+   "udeat300": 10,
+   "udeat600": 16,
+   "umons100": 1440,
+   "umons300": 5290,
+   "umons600": 6440
+  },
+  "champs": {
+   "Vesper Vale": [
+    1295,
+    4,
+    0,
+    0
+   ],
+   "Marcella": [
+    2330,
+    3,
+    0,
+    60
+   ],
+   "Ryth": [
+    1945,
+    4,
+    0,
+    0
+   ],
+   "Tavi": [
+    870,
+    5,
+    1,
+    100
+   ]
+  },
+  "tchamps": {
+   "Heart of Ruin": [
+    6366,
+    0,
+    3,
+    515,
+    [
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    4368,
+    0,
+    3,
+    2557,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "6"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Health",
+      "1"
+     ],
+     [
+      "HunterE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Vesper Vale": [
+    17447,
+    0,
+    5,
+    1589,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "HunterE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Ryth": [
+    7107,
+    1,
+    5,
+    630,
+    [
+     [
+      "MonsterE-Health",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Ad Astra",
+  "rank": 8,
+  "map": "00great_wall",
+  "side": "a",
+  "res": "loss",
+  "us": 350,
+  "them": 1040,
+  "d": 6,
+  "k": 3,
+  "td": 12,
+  "camp": 52851,
+  "tcamp": 143002,
+  "gold": 2669,
+  "tgold": 6111,
+  "lost": 198,
+  "rounds": 927,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Heart of Ruin",
+   "Ren",
+   "Vesper Vale",
+   "Cassi",
+   "Issac",
+   "Vendetta"
+  ],
+  "cur": {
+   "uearn100": 313,
+   "uearn300": 1035,
+   "uearn600": 1922,
+   "usubm100": 0,
+   "usubm300": 137,
+   "usubm600": 239,
+   "udeat100": 0,
+   "udeat300": 1,
+   "udeat600": 3,
+   "umons100": 8378,
+   "umons300": 19860,
+   "umons600": 38039,
+   "tearn100": 279,
+   "tearn300": 1301,
+   "tearn600": 3593,
+   "tsubm100": 0,
+   "tsubm300": 64,
+   "tsubm600": 466,
+   "tdeat100": 3,
+   "tdeat300": 4,
+   "tdeat600": 5,
+   "tmons100": 8440,
+   "tmons300": 28519,
+   "tmons600": 75825
+  },
+  "champs": {
+   "Willow": [
+    5775,
+    2,
+    0,
+    260
+   ],
+   "Vesper Vale": [
+    13837,
+    1,
+    0,
+    579
+   ],
+   "Ryth": [
+    9223,
+    1,
+    0,
+    340
+   ],
+   "Tavi": [
+    16263,
+    0,
+    3,
+    980
+   ],
+   "Marcella": [
+    7752,
+    2,
+    0,
+    510
+   ]
+  },
+  "tchamps": {
+   "Heart of Ruin": [
+    15944,
+    3,
+    4,
+    965,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "2"
+     ],
+     [
+      "BruiserE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Ren": [
+    17110,
+    1,
+    0,
+    510,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Vesper Vale": [
+    66153,
+    2,
+    1,
+    3021,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "3"
+     ],
+     [
+      "BruiserE-Strength",
+      "7"
+     ],
+     [
+      "BruiserE-Health",
+      "4"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Cassi": [
+    12231,
+    3,
+    0,
+    200,
+    [
+     [
+      "Durabilitys-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Issac": [
+    11139,
+    3,
+    1,
+    330,
+    [
+     [
+      "Monsters-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    20422,
+    0,
+    0,
+    1085,
+    [
+     [
+      "Durabilitys-Health",
+      "2"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Ad Astra",
+  "rank": 8,
+  "map": "01boss_battle",
+  "side": "b",
+  "res": "loss",
+  "us": 0,
+  "them": 1008,
+  "d": 31,
+  "k": 2,
+  "td": 2,
+  "camp": 197052,
+  "tcamp": 507879,
+  "gold": 10816,
+  "tgold": 24047,
+  "lost": 2843,
+  "rounds": 1821,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Heart of Ruin",
+   "Varg",
+   "Marcella",
+   "Vesper Vale",
+   "Ryth"
+  ],
+  "cur": {
+   "tearn100": 170,
+   "tearn300": 2464,
+   "tearn600": 7592,
+   "tsubm100": 0,
+   "tsubm300": 0,
+   "tsubm600": 0,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 15349,
+   "tmons300": 52501,
+   "tmons600": 195329,
+   "uearn100": 493,
+   "uearn300": 1865,
+   "uearn600": 5587,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 0,
+   "umons100": 11449,
+   "umons300": 39623,
+   "umons600": 114270
+  },
+  "champs": {
+   "Willow": [
+    14485,
+    9,
+    0,
+    824
+   ],
+   "Vesper Vale": [
+    64344,
+    7,
+    0,
+    2976
+   ],
+   "Ryth": [
+    45865,
+    3,
+    0,
+    2146
+   ],
+   "Tavi": [
+    33042,
+    8,
+    0,
+    800
+   ],
+   "Marcella": [
+    39315,
+    4,
+    2,
+    4070
+   ]
+  },
+  "tchamps": {
+   "Heart of Ruin": [
+    93498,
+    0,
+    2,
+    4335,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "15"
+     ],
+     [
+      "BruiserE-Health",
+      "8"
+     ]
+    ]
+   ],
+   "Varg": [
+    91304,
+    0,
+    4,
+    3585,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "9"
+     ],
+     [
+      "BruiserE-Health",
+      "9"
+     ]
+    ]
+   ],
+   "Marcella": [
+    102522,
+    1,
+    13,
+    6742,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "4"
+     ],
+     [
+      "BruiserE-Focus",
+      "33"
+     ],
+     [
+      "BruiserE-Health",
+      "4"
+     ],
+     [
+      "CaptureE-Health",
+      "1"
+     ],
+     [
+      "HunterE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Vesper Vale": [
+    141808,
+    1,
+    12,
+    6955,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "19"
+     ],
+     [
+      "BruiserE-Health",
+      "20"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "HunterE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Ryth": [
+    78746,
+    0,
+    0,
+    2430,
+    [
+     [
+      "MonsterE-Health",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "13"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Ad Astra",
+  "rank": 8,
+  "map": "00expanse",
+  "side": "a",
+  "res": "loss",
+  "us": 308,
+  "them": 1028,
+  "d": 2,
+  "k": 0,
+  "td": 0,
+  "camp": 75547,
+  "tcamp": 155779,
+  "gold": 4842,
+  "tgold": 9338,
+  "lost": 15,
+  "rounds": 843,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Heart of Ruin",
+   "Ren",
+   "Marcella",
+   "Vesper Vale",
+   "Ryth"
+  ],
+  "cur": {
+   "uearn100": 389,
+   "uearn300": 1479,
+   "uearn600": 3322,
+   "usubm100": 15,
+   "usubm300": 34,
+   "usubm600": 162,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 0,
+   "umons100": 6980,
+   "umons300": 17360,
+   "umons600": 44670,
+   "tearn100": 366,
+   "tearn300": 1724,
+   "tearn600": 5106,
+   "tsubm100": 19,
+   "tsubm300": 143,
+   "tsubm600": 472,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 9804,
+   "tmons300": 31731,
+   "tmons600": 91860
+  },
+  "champs": {
+   "Willow": [
+    10381,
+    0,
+    0,
+    720
+   ],
+   "Vesper Vale": [
+    15301,
+    0,
+    0,
+    1124
+   ],
+   "Ryth": [
+    22936,
+    1,
+    0,
+    1105
+   ],
+   "Tavi": [
+    12668,
+    0,
+    0,
+    670
+   ],
+   "Marcella": [
+    14259,
+    1,
+    0,
+    1223
+   ]
+  },
+  "tchamps": {
+   "Heart of Ruin": [
+    16620,
+    0,
+    0,
+    670,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Health",
+      "2"
+     ]
+    ]
+   ],
+   "Ren": [
+    25745,
+    0,
+    0,
+    1150,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "3"
+     ],
+     [
+      "BruiserE-Focus",
+      "2"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ]
+    ]
+   ],
+   "Marcella": [
+    31722,
+    0,
+    0,
+    2423,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Focus",
+      "4"
+     ],
+     [
+      "Bruisers-Health",
+      "3"
+     ],
+     [
+      "BruiserE-Health",
+      "3"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Vesper Vale": [
+    59573,
+    0,
+    2,
+    4655,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "14"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Ryth": [
+    22117,
+    0,
+    0,
+    440,
+    [
+     [
+      "Monsters-Health",
+      "3"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "Ad Astra",
+  "rank": 8,
+  "map": "00crater",
+  "side": "b",
+  "res": "loss",
+  "us": 98,
+  "them": 1046,
+  "d": 22,
+  "k": 1,
+  "td": 1,
+  "camp": 27741,
+  "tcamp": 74498,
+  "gold": 988,
+  "tgold": 7071,
+  "lost": 105,
+  "rounds": 876,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Heart of Ruin",
+   "Ren",
+   "Marcella",
+   "Vesper Vale",
+   "Ryth"
+  ],
+  "cur": {
+   "tearn100": 481,
+   "tearn300": 1502,
+   "tearn600": 4001,
+   "tsubm100": 72,
+   "tsubm300": 118,
+   "tsubm600": 668,
+   "tdeat100": 1,
+   "tdeat300": 1,
+   "tdeat600": 1,
+   "tmons100": 4594,
+   "tmons300": 20424,
+   "tmons600": 46276,
+   "uearn100": 160,
+   "uearn300": 487,
+   "uearn600": 660,
+   "usubm100": 0,
+   "usubm300": 51,
+   "usubm600": 69,
+   "udeat100": 2,
+   "udeat300": 5,
+   "udeat600": 12,
+   "umons100": 3115,
+   "umons300": 8015,
+   "umons600": 16934
+  },
+  "champs": {
+   "Willow": [
+    5224,
+    5,
+    0,
+    150
+   ],
+   "Vesper Vale": [
+    6247,
+    5,
+    0,
+    266
+   ],
+   "Ryth": [
+    6000,
+    4,
+    0,
+    60
+   ],
+   "Tavi": [
+    5049,
+    5,
+    1,
+    100
+   ],
+   "Marcella": [
+    5220,
+    3,
+    0,
+    412
+   ]
+  },
+  "tchamps": {
+   "Heart of Ruin": [
+    11068,
+    0,
+    2,
+    380,
+    [
+     [
+      "Durabilitys-Health",
+      "2"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Ren": [
+    8334,
+    1,
+    0,
+    20,
+    []
+   ],
+   "Marcella": [
+    12418,
+    0,
+    8,
+    3362,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Focus",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "2"
+     ],
+     [
+      "BruiserE-Focus",
+      "12"
+     ],
+     [
+      "BruiserE-Health",
+      "2"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Health",
+      "1"
+     ],
+     [
+      "HunterE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Vesper Vale": [
+    35370,
+    0,
+    9,
+    2919,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Strength",
+      "1"
+     ],
+     [
+      "BruiserE-Strength",
+      "4"
+     ],
+     [
+      "BruiserE-Health",
+      "5"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "HunterE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Ryth": [
+    7306,
+    0,
+    3,
+    390,
+    [
+     [
+      "Monsters-Health",
+      "3"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "print dont int",
+  "rank": 6,
+  "map": "00the_line",
+  "side": "a",
+  "res": "loss",
+  "us": 0,
+  "them": 1027,
+  "d": 21,
+  "k": 3,
+  "td": 3,
+  "camp": 1490,
+  "tcamp": 41529,
+  "gold": 333,
+  "tgold": 4542,
+  "lost": 0,
+  "rounds": 614,
+  "faults": 0,
+  "our": [
+   "Vesper Vale",
+   "Marcella",
+   "Ryth",
+   "Tavi"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Heart of Ruin",
+   "Vendetta",
+   "Marcella"
+  ],
+  "cur": {
+   "uearn100": 233,
+   "uearn300": 333,
+   "uearn600": 333,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 2,
+   "udeat300": 10,
+   "udeat600": 21,
+   "umons100": 875,
+   "umons300": 1490,
+   "umons600": 1490,
+   "tearn100": 233,
+   "tearn300": 1756,
+   "tearn600": 4542,
+   "tsubm100": 0,
+   "tsubm300": 334,
+   "tsubm600": 977,
+   "tdeat100": 2,
+   "tdeat300": 3,
+   "tdeat600": 3,
+   "tmons100": 785,
+   "tmons300": 13969,
+   "tmons600": 41529
+  },
+  "champs": {
+   "Vesper Vale": [
+    120,
+    5,
+    1,
+    133
+   ],
+   "Marcella": [
+    425,
+    4,
+    1,
+    100
+   ],
+   "Ryth": [
+    700,
+    6,
+    1,
+    100
+   ],
+   "Tavi": [
+    245,
+    6,
+    0,
+    0
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    6619,
+    1,
+    2,
+    523,
+    [
+     [
+      "PowerE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "Prospectors-Strength",
+      "2"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    11126,
+    1,
+    3,
+    704,
+    [
+     [
+      "PowerE-Focus",
+      "1"
+     ],
+     [
+      "Durabilitys-Health",
+      "3"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "HomeE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    16311,
+    0,
+    9,
+    1311,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "SkirmishE-Strength",
+      "1"
+     ],
+     [
+      "Collectorss-Strength",
+      "3"
+     ]
+    ]
+   ],
+   "Marcella": [
+    7471,
+    1,
+    7,
+    2004,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "4"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ],
+     [
+      "SkirmishE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "print dont int",
+  "rank": 6,
+  "map": "00great_wall",
+  "side": "b",
+  "res": "loss",
+  "us": 297,
+  "them": 1072,
+  "d": 5,
+  "k": 0,
+  "td": 2,
+  "camp": 59365,
+  "tcamp": 124011,
+  "gold": 2659,
+  "tgold": 5836,
+  "lost": 302,
+  "rounds": 910,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Heart of Ruin",
+   "Vendetta",
+   "Ryth",
+   "Marcella"
+  ],
+  "cur": {
+   "tearn100": 350,
+   "tearn300": 1427,
+   "tearn600": 3458,
+   "tsubm100": 0,
+   "tsubm300": 197,
+   "tsubm600": 562,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 11634,
+   "tmons300": 27239,
+   "tmons600": 64855,
+   "uearn100": 273,
+   "uearn300": 851,
+   "uearn600": 1709,
+   "usubm100": 0,
+   "usubm300": 44,
+   "usubm600": 176,
+   "udeat100": 0,
+   "udeat300": 2,
+   "udeat600": 4,
+   "umons100": 7255,
+   "umons300": 17424,
+   "umons600": 37642
+  },
+  "champs": {
+   "Willow": [
+    5038,
+    2,
+    0,
+    180
+   ],
+   "Vesper Vale": [
+    17796,
+    2,
+    0,
+    651
+   ],
+   "Ryth": [
+    10066,
+    0,
+    0,
+    440
+   ],
+   "Tavi": [
+    10947,
+    1,
+    0,
+    320
+   ],
+   "Marcella": [
+    15516,
+    0,
+    0,
+    1068
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    46170,
+    0,
+    0,
+    2515,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "PowerE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "3"
+     ],
+     [
+      "BruiserE-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Health",
+      "1"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "SkirmishE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    16202,
+    1,
+    1,
+    868,
+    [
+     [
+      "Monsters-Focus",
+      "1"
+     ],
+     [
+      "PowerE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "HomeE-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    23781,
+    0,
+    1,
+    440,
+    [
+     [
+      "Durabilitys-Health",
+      "2"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Prospectors-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Ryth": [
+    14056,
+    1,
+    2,
+    495,
+    [
+     [
+      "Durabilitys-Health",
+      "4"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    23800,
+    0,
+    1,
+    1518,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ],
+     [
+      "SkirmishE-Focus",
+      "1"
+     ],
+     [
+      "Collectorss-Focus",
+      "4"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "print dont int",
+  "rank": 6,
+  "map": "01boss_battle",
+  "side": "a",
+  "res": "loss",
+  "us": 0,
+  "them": 1035,
+  "d": 2,
+  "k": 0,
+  "td": 1,
+  "camp": 105185,
+  "tcamp": 179875,
+  "gold": 5664,
+  "tgold": 9001,
+  "lost": 500,
+  "rounds": 626,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Heart of Ruin",
+   "Vendetta",
+   "Ryth",
+   "Marcella"
+  ],
+  "cur": {
+   "uearn100": 413,
+   "uearn300": 1891,
+   "uearn600": 5664,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 0,
+   "umons100": 12222,
+   "umons300": 42125,
+   "umons600": 104639,
+   "tearn100": 0,
+   "tearn300": 2564,
+   "tearn600": 7661,
+   "tsubm100": 0,
+   "tsubm300": 0,
+   "tsubm600": 729,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 1,
+   "tmons100": 11342,
+   "tmons300": 54181,
+   "tmons600": 175754
+  },
+  "champs": {
+   "Willow": [
+    9287,
+    0,
+    0,
+    450
+   ],
+   "Vesper Vale": [
+    28699,
+    0,
+    0,
+    1874
+   ],
+   "Ryth": [
+    29559,
+    0,
+    0,
+    1090
+   ],
+   "Tavi": [
+    19295,
+    1,
+    0,
+    450
+   ],
+   "Marcella": [
+    18342,
+    1,
+    0,
+    1800
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    106097,
+    0,
+    2,
+    6319,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "PowerE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Strength",
+      "19"
+     ],
+     [
+      "Bruisers-Health",
+      "3"
+     ],
+     [
+      "BruiserE-Health",
+      "6"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "SkirmishE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    18221,
+    1,
+    0,
+    281,
+    [
+     [
+      "Powers-Focus",
+      "4"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    15203,
+    0,
+    0,
+    85,
+    [
+     [
+      "Treasures-Strength",
+      "2"
+     ]
+    ]
+   ],
+   "Ryth": [
+    21939,
+    0,
+    0,
+    362,
+    [
+     [
+      "Monsters-Strength",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    18413,
+    0,
+    0,
+    1954,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Tributes-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "SkirmishE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "print dont int",
+  "rank": 6,
+  "map": "00expanse",
+  "side": "b",
+  "res": "win",
+  "us": 1036,
+  "them": 990,
+  "d": 0,
+  "k": 0,
+  "td": 0,
+  "camp": 185175,
+  "tcamp": 180611,
+  "gold": 9619,
+  "tgold": 11237,
+  "lost": 62,
+  "rounds": 1295,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Heart of Ruin",
+   "Vendetta",
+   "Ryth",
+   "Marcella"
+  ],
+  "cur": {
+   "tearn100": 347,
+   "tearn300": 1625,
+   "tearn600": 3950,
+   "tsubm100": 19,
+   "tsubm300": 117,
+   "tsubm600": 300,
+   "tdeat100": 0,
+   "tdeat300": 0,
+   "tdeat600": 0,
+   "tmons100": 10710,
+   "tmons300": 29525,
+   "tmons600": 66965,
+   "uearn100": 389,
+   "uearn300": 1541,
+   "uearn600": 3636,
+   "usubm100": 0,
+   "usubm300": 38,
+   "usubm600": 193,
+   "udeat100": 0,
+   "udeat300": 0,
+   "udeat600": 0,
+   "umons100": 7120,
+   "umons300": 17534,
+   "umons600": 52289
+  },
+  "champs": {
+   "Willow": [
+    24568,
+    0,
+    0,
+    1300
+   ],
+   "Vesper Vale": [
+    46895,
+    0,
+    0,
+    2225
+   ],
+   "Ryth": [
+    41950,
+    0,
+    0,
+    1810
+   ],
+   "Tavi": [
+    32724,
+    0,
+    0,
+    1520
+   ],
+   "Marcella": [
+    39036,
+    0,
+    0,
+    2764
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    57283,
+    0,
+    0,
+    4689,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "PowerE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "4"
+     ],
+     [
+      "BruiserE-Strength",
+      "15"
+     ],
+     [
+      "Bruisers-Health",
+      "1"
+     ],
+     [
+      "BruiserE-Health",
+      "5"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "SkirmishE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    32836,
+    0,
+    0,
+    1012,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "PowerE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "Jungles-Health",
+      "3"
+     ],
+     [
+      "HomeE-Health",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    34820,
+    0,
+    0,
+    889,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Captures-Strength",
+      "4"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Ryth": [
+    23478,
+    0,
+    0,
+    950,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Captures-Strength",
+      "3"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    32192,
+    0,
+    0,
+    3697,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "15"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ],
+     [
+      "SkirmishE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "team": "print dont int",
+  "rank": 6,
+  "map": "00crater",
+  "side": "a",
+  "res": "loss",
+  "us": 11,
+  "them": 1062,
+  "d": 24,
+  "k": 0,
+  "td": 1,
+  "camp": 21272,
+  "tcamp": 75019,
+  "gold": 455,
+  "tgold": 6200,
+  "lost": 73,
+  "rounds": 818,
+  "faults": 0,
+  "our": [
+   "Willow",
+   "Vesper Vale",
+   "Ryth",
+   "Tavi",
+   "Marcella"
+  ],
+  "their": [
+   "Vesper Vale",
+   "Heart of Ruin",
+   "Vendetta",
+   "Ryth",
+   "Marcella"
+  ],
+  "cur": {
+   "uearn100": 113,
+   "uearn300": 233,
+   "uearn600": 433,
+   "usubm100": 0,
+   "usubm300": 0,
+   "usubm600": 0,
+   "udeat100": 1,
+   "udeat300": 7,
+   "udeat600": 18,
+   "umons100": 3274,
+   "umons300": 8579,
+   "umons600": 18484,
+   "tearn100": 140,
+   "tearn300": 1470,
+   "tearn600": 4066,
+   "tsubm100": 0,
+   "tsubm300": 234,
+   "tsubm600": 593,
+   "tdeat100": 1,
+   "tdeat300": 1,
+   "tdeat600": 1,
+   "tmons100": 5815,
+   "tmons300": 19044,
+   "tmons600": 47195
+  },
+  "champs": {
+   "Willow": [
+    2446,
+    5,
+    0,
+    0
+   ],
+   "Vesper Vale": [
+    5031,
+    5,
+    0,
+    133
+   ],
+   "Ryth": [
+    6142,
+    3,
+    0,
+    120
+   ],
+   "Tavi": [
+    4098,
+    7,
+    0,
+    60
+   ],
+   "Marcella": [
+    3555,
+    4,
+    0,
+    142
+   ]
+  },
+  "tchamps": {
+   "Vesper Vale": [
+    8572,
+    0,
+    0,
+    441,
+    [
+     [
+      "PowerE-Strength",
+      "1"
+     ],
+     [
+      "Durabilitys-Health",
+      "4"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Heart of Ruin": [
+    15556,
+    0,
+    1,
+    461,
+    [
+     [
+      "PowerE-Focus",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "Homes-Health",
+      "3"
+     ]
+    ]
+   ],
+   "Vendetta": [
+    22430,
+    1,
+    9,
+    1864,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Strength",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Strength",
+      "2"
+     ],
+     [
+      "BruiserE-Strength",
+      "2"
+     ],
+     [
+      "Bruisers-Health",
+      "4"
+     ],
+     [
+      "TributeE-Strength",
+      "1"
+     ],
+     [
+      "CaptureE-Strength",
+      "1"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ],
+     [
+      "SkirmishE-Strength",
+      "1"
+     ],
+     [
+      "CollectorsE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Ryth": [
+    8798,
+    0,
+    5,
+    733,
+    [
+     [
+      "MonsterE-Strength",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Health",
+      "1"
+     ],
+     [
+      "Jungles-Health",
+      "4"
+     ],
+     [
+      "ProspectorE-Strength",
+      "1"
+     ]
+    ]
+   ],
+   "Marcella": [
+    19661,
+    0,
+    9,
+    2701,
+    [
+     [
+      "MonsterE-Focus",
+      "1"
+     ],
+     [
+      "DurabilityE-Health",
+      "1"
+     ],
+     [
+      "TreasureE-Focus",
+      "1"
+     ],
+     [
+      "JungleE-Health",
+      "1"
+     ],
+     [
+      "Bruisers-Focus",
+      "1"
+     ],
+     [
+      "BruiserE-Focus",
+      "7"
+     ],
+     [
+      "TributeE-Focus",
+      "1"
+     ],
+     [
+      "CaptureE-Focus",
+      "1"
+     ],
+     [
+      "ProspectorE-Focus",
+      "1"
+     ],
+     [
+      "SkirmishE-Focus",
+      "1"
+     ],
+     [
+      "CollectorsE-Focus",
+      "1"
+     ]
+    ]
+   ]
+  }
+ }
+]

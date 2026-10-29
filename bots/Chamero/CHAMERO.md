@@ -222,6 +222,53 @@ Fewer deaths and more kills on The Line, but still 0-1030 on average: we survive
 yet never win the jackpot. Expanse vs print dont int was 791-1002 (v27 won it 1006-927),
 so the one v27 win was a narrow one. Bot faults 0.
 
+## v5 (platform v29, submission 858e3c8e-f95e-406c-9947-1ef40746eee8): gate ward
+
+Source `versions/v5/src`. On maps where every altar is walled by a camp (Boss Battle,
+Guardians), a champion passing within 8 tiles drops its ward on the tile nearest the
+gate (`gate.rs: ward_gate`). Group state needs vision and vision is not shared, so
+before this the team never noticed the enemy killing the gate. Local: neutral (176/280;
+only those two maps change). Online top-5 rematch (`online/top5-v29/`): 0/25. Games
+are deterministic, so the four other maps repeated v28 exactly; Boss Battle still
+averaged 10-1043.
+
+Deep look at Boss Battle (single altar at 25,20 for both teams): wards were placed by
+round ~50 and worked. The real problem was our own gate assault from round 200: 4-9
+camp deaths per game around the monolith, each losing the carried gems (34-46 at a
+time). The top teams hold their gems, kill the gate late (rounds 470-720) and then
+tribute 200-865 at once.
+
+## v6 (platform v30, submission 342a1e8a-3d43-49e0-bd41-418703010a5e): patient gate
+
+Source `versions/v6/src`. Our own gate assault starts only after round 900 (was round
+200 or 60 carried gems); until then we farm, keep gems alive and wait for the ward to
+see the gate fall. Local on the two gated maps: 7/8 (v5 5/8); Guardians 2/4 -> 4/4.
+
+### v6 rematch (`online/top5-v30/`): 0/15
+
+Ad Astra (now #8) and print dont int (#6) had left the top 5 and were skipped (the
+script now accepts ranks 1-10 so the same five stay in). Boss Battle: camp damage up
+(139k vs 43k) and score 10 -> 44 average, but we now carried large bags and lost them to
+enemy champions at the shared altar (1208 gems lost vs Mite, 740 vs newer team).
+
+## v7 (platform v31): at most 2 champions per dangerous camp group
+
+Source `versions/v7/src` (`farm.rs: DANGER_CAP`, was 4). Expanse profile for v6:
+walking ~55% of turns, a third of farm trips over 10 tiles; several champions walked to
+the same wolf/elk group and split it. Local gate: **190/280** (102 vs apex, 88 vs
+apex22), deaths 12.2 -> 11.4, rich maps 44 -> 56/76.
+
+Top-10 rematch (`online/top5-v31/`, same five opponents and bots): **1/25**, win on
+Expanse vs print dont int 1036-990 (camp damage 185k vs 180k). Per map averages:
+the_line 0-1030, great_wall 370-1041 (v6 477), boss_battle 177-1055 (v6 44),
+expanse 528-1012 (v6 413), crater 61-1026. Bot faults 0.
+
+Rejected after v7: no fights within 6 tiles of the enemy spawn (on The Line all four
+died 3-5 tiles from it while hunting). Local 180/280 vs v7's 190.
+
+Ward gap (v30 games, 3 per map): ours 0 on every map except Boss Battle (15); theirs
+195-450 per map, about 65-150 per game.
+
 ## v3 draft experiment (not uploaded; superseded name)
 
 Top-team draft on farming maps (normal/rich, 4-5 picks): Vesper, Vendetta, Heart of

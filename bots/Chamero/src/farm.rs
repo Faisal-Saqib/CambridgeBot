@@ -11,6 +11,9 @@ use crate::util::{cheb, me};
 use cambc::{AbilityInfo, CampGroupState, ChampionType, Result};
 
 
+/// Most champions that may claim the same dangerous camp group.
+const DANGER_CAP: usize = 2;
+
 impl Bot {
     /// Alive camps of a group currently in vision; also refreshes HP memory.
     pub fn live_camps(&mut self, g: usize) -> Vec<LiveCamp> {
@@ -104,7 +107,9 @@ impl Bot {
         let joining = self.job != Some(g);
         // A jackpot takes the whole team: no join cap.
         let jackpot = self.kb.jackpot(g);
-        if !ball && !jackpot && joining && self.guard_goal() != Some(g) && ((!dangerous && claim >= harmless_cap) || claim >= 4) {
+        // Chamero: at most 2 champions per dangerous group (was 4), so the team
+        // spreads over more camps instead of walking to the same one.
+        if !ball && !jackpot && joining && self.guard_goal() != Some(g) && ((!dangerous && claim >= harmless_cap) || claim >= DANGER_CAP) {
             return Ok(None);
         }
         let center = grp.center;

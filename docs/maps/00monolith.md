@@ -1,31 +1,53 @@
-# 00monolith - map strategy worksheet
+# 00monolith strategy
 
-<!-- Generated from frozen campaign results by scripts/map_campaign.py. -->
+**Class:** boss | **Size:** 50x50 | **Picks:** 5 | **Altars:** 6 | **Camp groups:** 20
 
-Fixed baseline: v22. Coverage: **5/5 opponents**. Record: **4-1**.
+## Map facts [derived]
 
-## Map evidence
+- Gems 670 (134/champ), gold 1940 (388/champ), camp HP per gem 111.
+- Gem concentration: top 38%, center 76%, monolith-held 76%, harmless camps 0%.
+- Camp density 268.0; brawl flag: False.
 
-- 50x50; 6 altars; 670 static gems
-- Largest group: 256 gems, summed base strength 200
+## What top-20 teams did here [measured]
 
-Shape facts are from the earlier frozen map scan. Match IDs below resolve to tested map hashes in the stored summaries.
+- Sample: 41 team-games, 21 wins.
+- Winning drafts: Heart of Ruin, Marcella, Ryth, Vendetta, Vesper Vale (5w); Heart of Ruin, Marcella, Ryth, Varg, Vesper Vale (3w); Marcella, Ryth, Varg, Vendetta, Vesper Vale (2w)
+- Champions in winning drafts: Marcella (21w), Vesper Vale (20w), Heart of Ruin (17w), Vendetta (16w), Ryth (14w), Varg (5w), Tavi (4w), Willow (4w)
+- Winners: kills 6.2, deaths 4.4, tribute 40.8 gems, wards 58, farm spread 20.6 tiles.
+- Winner item families: Bruiser×1601, Jungle×322, Durability×269, Prospector×215, Other×202, Monster×175
+- Winner consumables: Altar Lock×164, Teleport Crystal×21
 
-## Results
+## Our record here [measured]
 
-| Opponent | Side | Result | Gems us/them | Deaths us/them | Our gems lost | Match ID |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ascendance | b | win | 1106/862 | 8/7 | 37 | 27460985-e7cb-4a18-b29f-d3099e1109af |
-| eclipsed Sunlight | a | loss | 911/1027 | 12/21 | 30 | 11815cf0-c604-4a66-b114-82bec0bda692 |
-| The World Machine | b | win | 1060/837 | 5/13 | 0 | 702e7a82-3027-4c97-94c4-671207ff4027 |
-| Princess Donut the Queen Anne Chonk | a | win | 1138/643 | 2/2 | 0 | 597eb14a-9712-4ccd-a24a-31f94db922df |
-| Knoobs | b | win | 1001/546 | 14/9 | 55 | 95e0efd1-5027-40ec-a750-88c599d4b67a |
+- v22 campaign vs five ~peer teams: 4/5 wins (results/b*.json).
 
-## Interpretation and next experiment
+## Recommended plan
 
-- Collected 5617; submitted 5216; lost 122 carried gems.
-- Deaths 41 versus 52; fuel exhaustion 35; bot faults 0.
-- Preserve v22 as this map's reference.
-- Inspect actual loss events and routes; low submission alone does not prove a banking-threshold problem.
+### Draft
 
-These are hypotheses for controlled follow-up, not a validated optimal strategy. The completed design uses five real opponent snapshots with a 3/2 side balance. No map-specific bot change is enabled by this report.
+- Primary: copy the most-frequent winning draft here — **Heart of Ruin, Marcella, Ryth, Vendetta, Vesper Vale** [measured].
+- Fallback: **Vesper Vale, Vendetta, Heart of Ruin, Marcella, Ryth** — sustain clear comp for long monolith sieges [hypothesis].
+
+### Camp targets
+
+- Monoliths hold 76% of gems [derived]. Prioritize the nearest monolith camps; use sustained chipping (camps keep damage between visits) + death-blacklist so a killed champ does not immediately re-die to the same camp.
+- Do NOT hold gems for a group gate assault vs real teams — bank through open altars early; break gate camps around round 400-700 like top teams, not 900+ [measured].
+- 76% of gems are in the center [derived] — contest it early; this is the 'central gems' failure we observed (our bot walked past center gems to side camps).
+
+### Items / shards / emblems
+
+- Opening (everyone): Monster + Jungle Health for early clear and sustain — matches every top-20 opening [measured].
+- Vesper Vale (carry): Bruiser Strength shards/emblems as main stack; add Power Strength once Bruiser caps.
+- Vendetta (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
+- Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
+- Marcella (carry): Bruiser Focus shards/emblems as main stack; add Power Focus once Bruiser caps.
+- Ryth (support): Bruiser Health shards/emblems as main stack; Durability Health for tankiness.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 8.8 consumables/game here); TP crystal(s) for carrier escapes.
+
+### Traversal / positioning
+
+- Two loose pairs beat one ball here: one pair sieges monoliths, one pair farms side camps + banks. Regroup within ~12 tiles when enemies appear.
+- Bank at the nearest of 6 altars; tribute when a carrier holds ~41 gems or when an enemy is chasing — losing carried gems is the main way games here are lost.
+
+---
+*Unvalidated plan derived from data; test locally before adopting.*

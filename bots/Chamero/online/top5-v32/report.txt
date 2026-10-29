@@ -1,0 +1,61 @@
+team                  map           s res       score    d/k   camp us/them  gold us/them lost  rnd
+Mite                  00the_line    a loss     0-1014  16/1        6k/40k     160/2699      4  591
+Mite                  00great_wall  b loss   382-1023   1/0       47k/109k    1870/4706     72  749
+Mite                  01boss_battle a loss     0-1067   3/0      328k/599k   13377/30520  1774 1096
+Mite                  00expanse     b loss   391-1034   1/0       86k/166k    4804/8355      4  846
+Mite                  00crater      a loss   105-1008  14/0       25k/79k     622/4594     51  773
+Intercontinental Fish 00the_line    b loss     0-1006  14/2        3k/30k     200/2286      0  529
+Intercontinental Fish 00great_wall  a loss   530-1028   2/0       57k/115k    2421/5485    102  863
+Intercontinental Fish 01boss_battle b loss   665-1125  13/6      237k/380k   10508/15334   437 1578
+Intercontinental Fish 00expanse     a loss   490-1000   1/1       96k/174k    6029/8435      4  940
+Intercontinental Fish 00crater      b loss    29-1002  20/0       24k/76k     626/5644    137  865
+newer team            00the_line    a loss     0-1013  12/0        2k/36k       0/3019      0  518
+newer team            00great_wall  b loss   312-1003   4/0       49k/87k    2060/3801    114  797
+newer team            01boss_battle a loss     0-1566   6/0       95k/210k    4148/10101   408  730
+newer team            00expanse     b loss   373-1033   0/0       90k/162k    5318/8146      0  876
+newer team            00crater      a loss     0-1001  20/1       26k/76k    1249/5130    383  941
+Ad Astra              00the_line    b loss     0-1182  23/0        4k/41k       0/4661      0  598
+Ad Astra              00great_wall  a loss   377-1049   3/3       50k/138k    2651/5578     71  845
+Ad Astra              01boss_battle b loss     0-1615  14/0      177k/419k    8696/17671   873 1141
+Ad Astra              00expanse     a loss   352-1034   1/0       87k/166k    5271/9245     31  880
+Ad Astra              00crater      b loss    33-1001  24/1       16k/69k     550/6954     69  770
+print dont int        00the_line    a loss     0-1160  22/1        6k/49k     299/5332    177  631
+print dont int        00great_wall  b loss   435-1070   6/2       53k/134k    2349/6617    128  941
+print dont int        01boss_battle a loss     0-1035   2/0      105k/174k    5664/8686    500  628
+print dont int        00expanse     b loss   809-1012   1/0      146k/181k    8342/11003    58 1221
+print dont int        00crater      a loss    11-1011  25/1       19k/73k     579/5794    111  830
+wins 0 / 25 faults 0
+
+per map (avg): score, deaths/kills, camp dmg us/them, gold us/them; and at r100/r300/r600 camp dmg us/them
+  00the_line     W0 0-1075 d17/k0 camp 4k/39k gold 131/3599 | camp r100 0k/4k r300 2k/17k r600 4k/39k | deaths r100 3 r300 8
+  00great_wall   W0 407-1034 d3/k1 camp 51k/116k gold 2270/5237 | camp r100 7k/9k r300 20k/30k r600 38k/74k | deaths r100 0 r300 0
+  01boss_battle  W0 133-1281 d7/k1 camp 188k/356k gold 8478/16462 | camp r100 11k/16k r300 39k/67k r600 106k/197k | deaths r100 0 r300 0
+  00expanse      W0 483-1022 d0/k0 camp 101k/170k gold 5952/9036 | camp r100 6k/10k r300 16k/35k r600 47k/89k | deaths r100 0 r300 0
+  00crater       W0 35-1004 d20/k0 camp 22k/75k gold 725/5623 | camp r100 3k/6k r300 10k/23k r600 16k/51k | deaths r100 1 r300 5
+
+opponent drafts:
+  Mite               00the_line    Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac
+  Mite               00great_wall  Vesper Vale, Vendetta, Heart of Ruin, Tavi, Marcella
+  Mite               01boss_battle Vesper Vale, Vendetta, Heart of Ruin, Tavi, Marcella
+  Mite               00expanse     Vesper Vale, Vendetta, Heart of Ruin, Tavi, Marcella
+  Mite               00crater      Vesper Vale, Vendetta, Heart of Ruin, Tavi, Marcella
+  Intercontinental F 00the_line    Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac
+  Intercontinental F 00great_wall  Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac, Marcella
+  Intercontinental F 01boss_battle Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac, Marcella
+  Intercontinental F 00expanse     Vesper Vale, Vendetta, Heart of Ruin, Varg, Cassi, Issac
+  Intercontinental F 00crater      Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac, Marcella
+  newer team         00the_line    Cassi, Issac, Prism, Marcella, Willow
+  newer team         00great_wall  Ryth, Vesper Vale, Vendetta, Prism, Heart of Ruin
+  newer team         01boss_battle Vesper Vale, Vendetta, Prism, Willow, Varg
+  newer team         00expanse     Vendetta, Cassi, Issac, Marcella, Varg, Heart of Ruin
+  newer team         00crater      Prism, Marcella, Willow, Tavi, Heart of Ruin
+  Ad Astra           00the_line    Heart of Ruin, Marcella, Vesper Vale, Ryth
+  Ad Astra           00great_wall  Heart of Ruin, Ren, Vesper Vale, Cassi, Issac, Vendetta
+  Ad Astra           01boss_battle Heart of Ruin, Varg, Marcella, Vesper Vale, Ryth
+  Ad Astra           00expanse     Heart of Ruin, Ren, Marcella, Vesper Vale, Ryth
+  Ad Astra           00crater      Heart of Ruin, Ren, Marcella, Vesper Vale, Ryth
+  print dont int     00the_line    Vesper Vale, Heart of Ruin, Vendetta, Marcella
+  print dont int     00great_wall  Vesper Vale, Heart of Ruin, Vendetta, Ryth, Marcella
+  print dont int     01boss_battle Vesper Vale, Heart of Ruin, Vendetta, Ryth, Marcella
+  print dont int     00expanse     Vesper Vale, Heart of Ruin, Vendetta, Ryth, Marcella
+  print dont int     00crater      Vesper Vale, Heart of Ruin, Vendetta, Ryth, Marcella

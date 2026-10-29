@@ -1,0 +1,82 @@
+[
+ {
+  "team": "Mite",
+  "team_id": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e",
+  "rank": 2,
+  "rating": 2406.0239972783656,
+  "checked_at": "2026-10-29T07:02:12.722269+00:00",
+  "sides": "a,b,a,b,a",
+  "source_group": "e27e5c81-927d-4173-a3fd-3a04a399e85d",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 32  Selected: 32"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"f7d322e4-0512-41b1-84ba-a5d1a53b57c2\",\"matchId\":\"295d1630-2b37-46b1-bf60-7e25e5fff0ca\",\"teamName\":\"Mite\"}",
+  "stderr": ""
+ },
+ {
+  "team": "Intercontinental Fish",
+  "team_id": "1890540d-1ffc-4847-adbf-d0d08772f268",
+  "rank": 3,
+  "rating": 2401.921374491695,
+  "checked_at": "2026-10-29T07:02:14.940612+00:00",
+  "sides": "b,a,b,a,b",
+  "source_group": "a781860e-1e40-4cb3-b3eb-0bfbecc0601d",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 32  Selected: 32"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"7c48f5b0-7a81-4f23-b88a-229ebcab4dc4\",\"matchId\":\"2831dbb3-fb1a-4622-b27c-19669db17090\",\"teamName\":\"Intercontinental Fish\"}",
+  "stderr": ""
+ },
+ {
+  "team": "newer team",
+  "team_id": "547efb5b-57e5-4355-8501-3b331f506d62",
+  "rank": 4,
+  "rating": 2362.4049213204817,
+  "checked_at": "2026-10-29T07:02:18.953935+00:00",
+  "sides": "a,b,a,b,a",
+  "source_group": "a7a1a432-a073-4831-84e3-08cd59f195d8",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 32  Selected: 32"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"dc1bb610-94d3-48a5-a46d-f833655f5df7\",\"matchId\":\"ff6c86e5-78bb-4f4d-adcf-18bc33ce8106\",\"teamName\":\"newer team\"}",
+  "stderr": ""
+ },
+ {
+  "team": "Ad Astra",
+  "team_id": "de0b1e3c-39fb-473c-8244-61c1133ad612",
+  "rank": 6,
+  "rating": 2315.095541843529,
+  "checked_at": "2026-10-29T07:02:22.450514+00:00",
+  "sides": "b,a,b,a,b",
+  "source_group": "51d35f3c-2fa1-4fff-bfde-ff5a8d14e036",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 32  Selected: 32"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"122eb10d-b1b2-4cae-9495-6b6af6f64bd9\",\"matchId\":\"b892d143-6696-4598-b4c4-1ee665e84abf\",\"teamName\":\"Ad Astra\"}",
+  "stderr": ""
+ },
+ {
+  "team": "print dont int",
+  "team_id": "d559d741-ac53-411e-bc4e-36b8f3d12d5a",
+  "rank": 7,
+  "rating": 2312.477484975464,
+  "checked_at": "2026-10-29T07:02:26.382468+00:00",
+  "sides": "a,b,a,b,a",
+  "source_group": "176b64e3-db99-48c7-9f46-818c77cbac2a",
+  "live": [
+   "Mode: follow newest ready version",
+   "Live: 32  Selected: 32"
+  ],
+  "exit": 0,
+  "stdout": "{\"groupId\":\"5cc47697-4a29-44b6-bf9b-602dccd51784\",\"matchId\":\"f188ad23-6ee6-430b-a9a6-2f641d829d71\",\"teamName\":\"print dont int\"}",
+  "stderr": ""
+ }
+]

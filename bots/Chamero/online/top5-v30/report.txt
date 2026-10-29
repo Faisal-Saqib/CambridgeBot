@@ -1,0 +1,41 @@
+team                  map           s res       score    d/k   camp us/them  gold us/them lost  rnd
+Mite                  00the_line    a loss     0-1024  16/0        2k/40k       0/2748      0  527
+Mite                  00great_wall  b loss   573-1064   9/0       72k/123k    2910/6098    145 1038
+Mite                  01boss_battle a loss     0-1838   8/1      235k/572k   10905/26461  1208 1184
+Mite                  00expanse     b loss   343-1018   1/0       76k/164k    4643/8476      4  845
+Mite                  00crater      a loss    65-1009  22/1       20k/76k     764/5494    123  805
+Intercontinental Fish 00the_line    b loss     0-1078  15/5        5k/29k     566/2309      0  623
+Intercontinental Fish 00great_wall  a loss   519-1054   4/0       56k/125k    2465/5988    100  923
+Intercontinental Fish 01boss_battle b loss     0-1123   7/0       88k/179k    4196/9294    387  790
+Intercontinental Fish 00expanse     a loss   488-1028   0/0      107k/175k    6266/8484     60  967
+Intercontinental Fish 00crater      b loss    18-1013  22/2       15k/80k     519/6218     55  839
+newer team            00the_line    a loss     0-1009  12/2        1k/35k     233/3236      0  591
+newer team            00great_wall  b loss   339-1001   6/1       50k/94k    2418/4678    201  847
+newer team            01boss_battle a loss   133-1110   6/2       94k/252k    4627/11434   740  823
+newer team            00expanse     b loss   408-1003   2/0       97k/158k    5639/8363     19  886
+newer team            00crater      a loss    18-1004  20/0       22k/66k     605/4308    120  796
+wins 0 / 15 faults 0
+
+per map (avg): score, deaths/kills, camp dmg us/them, gold us/them; and at r100/r300/r600 camp dmg us/them
+  00the_line     W0 0-1037 d14/k2 camp 3k/35k gold 266/2764 | camp r100 0k/4k r300 2k/16k r600 3k/34k | deaths r100 2 r300 5
+  00great_wall   W0 477-1039 d6/k0 camp 59k/114k gold 2597/5588 | camp r100 9k/9k r300 22k/32k r600 41k/73k | deaths r100 0 r300 0
+  01boss_battle  W0 44-1357 d7/k1 camp 139k/334k gold 6576/15729 | camp r100 11k/18k r300 42k/74k r600 91k/207k | deaths r100 0 r300 0
+  00expanse      W0 413-1016 d1/k0 camp 93k/166k gold 5516/8441 | camp r100 6k/11k r300 17k/39k r600 50k/92k | deaths r100 0 r300 0
+  00crater       W0 33-1008 d21/k1 camp 19k/74k gold 629/5340 | camp r100 2k/5k r300 9k/23k r600 15k/51k | deaths r100 3 r300 6
+
+opponent drafts:
+  Mite               00the_line    Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac
+  Mite               00great_wall  Vesper Vale, Vendetta, Heart of Ruin, Tavi, Marcella
+  Mite               01boss_battle Vesper Vale, Vendetta, Heart of Ruin, Tavi, Marcella
+  Mite               00expanse     Vesper Vale, Vendetta, Heart of Ruin, Tavi, Marcella
+  Mite               00crater      Vesper Vale, Vendetta, Heart of Ruin, Tavi, Marcella
+  Intercontinental F 00the_line    Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac
+  Intercontinental F 00great_wall  Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac, Marcella
+  Intercontinental F 01boss_battle Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac, Marcella
+  Intercontinental F 00expanse     Vesper Vale, Vendetta, Heart of Ruin, Varg, Cassi, Issac
+  Intercontinental F 00crater      Vesper Vale, Vendetta, Heart of Ruin, Cassi, Issac, Marcella
+  newer team         00the_line    Cassi, Issac, Prism, Marcella, Willow
+  newer team         00great_wall  Ryth, Vesper Vale, Vendetta, Prism, Heart of Ruin
+  newer team         01boss_battle Vesper Vale, Vendetta, Prism, Willow, Varg
+  newer team         00expanse     Vendetta, Cassi, Issac, Marcella, Varg, Heart of Ruin
+  newer team         00crater      Prism, Marcella, Willow, Tavi, Heart of Ruin

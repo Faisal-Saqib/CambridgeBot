@@ -82,6 +82,9 @@ pub fn champion_dps(ch: &Champion) -> f32 {
     ch.strength().unwrap_or(40.0) * ms + ch.focus().unwrap_or(100.0) * mf
 }
 
+/// Chamero: cheap ward placement (v8 trial) on or off.
+const WARDS: bool = false;
+
 pub struct Bot {
     pub kb: Kb,
     pub kind: ChampionType,
@@ -341,6 +344,10 @@ impl Bot {
             self.farm()?;
         }
         self.support_spells();
+        if self.gate_now.is_none() && WARDS {
+            self.place_ward_cheap();
+        }
+        self.use_lock();
         if mode == "fight" {
             if self.attacked || self.cast || self.taken > 0.5 {
                 self.standoff = 0;
@@ -454,6 +461,76 @@ impl Bot {
         self.frac() < 0.6
             || self.enemy_seen_at.iter().any(|(p, t)| *t + 40 > r && cheb(*p, self.pos) <= 14)
             || self.deaths_seen.iter().any(|&t| t + 100 > r)
+    }
+
+    /// Chamero: wards where they pay off, cheaply. Top teams place 65-150 a
+    /// game; we placed none. Vision is per champion, so a ward guards its owner:
+    /// beside an altar while carrying gems (carriers get ambushed there), or
+    /// toward the last enemy we saw when our ward is far behind. No tile scan:
+    /// try 2 tiles straight toward the target, then its neighbours.
+    /// Chamero: place our altar lock (blocks enemy tributes until they hit it
+    /// 5 times; our team can still tribute there; placing cancels an enemy
+    /// tribute in progress). Lock an altar within reach when an enemy champion
+    /// is near it, or, on maps with one or two altars, whenever enemies were
+    /// seen near it recently.
+    pub fn use_lock(&mut self) {
+        let me = me();
+        let lock = &me.consumables()[cambc::ConsumableType::AltarLock];
+        if lock.count().unwrap_or(0) == 0 {
+            return;
+        }
+        let few_altars = self.kb.altars.len() <= 2;
+        for i in 0..self.kb.altars.len() {
+            let a = self.kb.altars[i];
+            if cheb(a, self.pos) > 2 || cambc::vision::has_altar_lock(a).unwrap_or(true) {
+                continue;
+            }
+            let enemy_near = self.enemies.iter().any(|e| cheb(e.pos, a) <= 3);
+            let contested = few_altars && self.enemy_seen_at.iter().any(|(p, r)| cheb(*p, a) <= 10 && *r + 60 > self.round);
+            if (enemy_near || contested) && lock.use_at(a).unwrap_or(false) {
+                log!(self, "altar lock on {},{} (enemy near {})", a.x, a.y, enemy_near);
+                return;
+            }
+        }
+    }
+
+    pub fn place_ward_cheap(&mut self) {
+        let me = me();
+        if me.ward_cooldown().unwrap_or(1) > 0 {
+            return;
+        }
+        let altar = if self.gems > 0 { self.kb.altars.iter().copied().find(|a| cheb(*a, self.pos) <= 2) } else { None };
+        let target = match altar {
+            Some(a) => a,
+            None => {
+                let Some(&(seen, _)) = self.enemy_seen_at.iter().filter(|(_, r)| *r + 40 > self.round).max_by_key(|(_, r)| *r) else { return };
+                let far = me.ward_positions().map_or(true, |ws| ws.iter().all(|w| cheb(*w, self.pos) > 8));
+                if !far {
+                    return;
+                }
+                seen
+            }
+        };
+        if let Some(ws) = me.ward_positions().ok() {
+            if ws.iter().any(|w| cheb(*w, target) <= 2) {
+                return;
+            }
+        }
+        let step = Vec2::new((target.x - self.pos.x).signum(), (target.y - self.pos.y).signum());
+        let aim = self.pos + Vec2::new(step.x * 2, step.y * 2);
+        let mut cands = vec![aim];
+        for d in crate::util::DIRS {
+            cands.push(aim + d);
+        }
+        for p in cands {
+            if cheb(p, self.pos) <= 2 && p != self.pos && self.kb.in_bounds(p) && !self.kb.is_blocked(p)
+                && !self.occupied.is_set(p).unwrap_or(true)
+            {
+                if me.place_ward(p).unwrap_or(false) {
+                    break;
+                }
+            }
+        }
     }
 
     /// Team deaths in the last 150 rounds.
