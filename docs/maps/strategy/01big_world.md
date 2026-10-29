@@ -4,9 +4,10 @@
 
 ## Map facts [derived]
 
-- Gems 832 (166/champ), gold 2760 (552/champ), camp HP per gem 116.
+- Gems 832 (166/champ → **gem-abundant**), gold 2760 (552/champ → **gold-rich**), camp HP per gem 116.
 - Gem concentration: top 27%, center 0%, monolith-held 55%, harmless camps 10%.
 - Camp density 83.2; brawl flag: False.
+- **Unreachable on foot:** 56/832 static gems (7%) sit outside our spawn's walkable component [derived] — reachable only by a dash (if the gap is short) or a teleport crystal.
 
 ## What top-20 teams did here [measured]
 
@@ -32,6 +33,7 @@
 
 - Monoliths hold 55% of gems [derived]. Prioritize the nearest monolith camps; use sustained chipping (camps keep damage between visits) + death-blacklist so a killed champ does not immediately re-die to the same camp.
 - Do NOT hold gems for a group gate assault vs real teams — bank through open altars early; break gate camps around round 400-700 like top teams, not 900+ [measured].
+- **7% of gems are gap-separated** [derived]: assign the disconnected component to a dash-capable champion (short gaps) and/or buy teleport crystals early — a normal walker will never reach them. One dedicated 'island hopper' should claim the whole disconnected region; everyone else ignores it.
 
 ### Items / shards / emblems
 
@@ -41,7 +43,7 @@
 - Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
 - Marcella (carry): Bruiser Focus shards/emblems as main stack; add Power Focus once Bruiser caps.
 - Ryth (support): Bruiser Health shards/emblems as main stack; Durability Health for tankiness.
-- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 10.6 consumables/game here); TP crystal(s) for carrier escapes.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 10.6 consumables/game here); TP crystal(s) REQUIRED — 7% of gems are gap-separated (crystal or dash access only).
 
 ### Traversal / positioning
 

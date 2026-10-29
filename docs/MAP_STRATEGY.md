@@ -4,76 +4,75 @@ One document per published map. Each combines map facts, what winning top-20 tea
 
 Labels: **[measured]** = observed in downloaded match data, **[derived]** = computed from map facts, **[hypothesis]** = proposal, not validated.
 
-| Map | Class | Picks | Gems | Altars | Our record |
-| --- | --- | ---: | ---: | ---: | --- |
-| --- | --- | --- | --- | --- | --- |
-| [00ambush](maps/strategy/00ambush.md) | normal | 5 | 270 | 4 | v22 4/5 |
-| [00anvil](maps/strategy/00anvil.md) | jackpot | 3 | 258 | 1 | v22 1/5 | Chamero 0/2 |
-| [00breadcrumbs](maps/strategy/00breadcrumbs.md) | normal | 3 | 154 | 1 | v22 1/5 |
-| [00collision](maps/strategy/00collision.md) | rich | 3 | 280 | 2 | v22 0/5 |
-| [00contest](maps/strategy/00contest.md) | jackpot | 5 | 400 | 2 | v22 1/5 |
-| [00corners](maps/strategy/00corners.md) | normal | 5 | 396 | 5 | v22 2/5 |
-| [00crater](maps/strategy/00crater.md) | sparse | 5 | 158 | 1 | v22 3/5 | Chamero 0/23 |
-| [00dunes](maps/strategy/00dunes.md) | sparse | 5 | 238 | 2 | v22 3/5 |
-| [00eight](maps/strategy/00eight.md) | sparse | 5 | 230 | 1 | v22 2/5 |
-| [00elkring](maps/strategy/00elkring.md) | sparse | 5 | 220 | 2 | v22 3/5 |
-| [00expanse](maps/strategy/00expanse.md) | normal | 5 | 362 | 10 | v22 5/5 | Chamero 1/25 |
-| [00fragment](maps/strategy/00fragment.md) | sparse | 3 | 68 | 2 | v22 2/5 |
-| [00galaxy](maps/strategy/00galaxy.md) | sparse | 5 | 113 | 2 | v22 1/5 |
-| [00gem_fields](maps/strategy/00gem_fields.md) | normal | 5 | 364 | 4 | v22 3/5 |
-| [00gemfight](maps/strategy/00gemfight.md) | normal | 4 | 200 | 2 | v22 3/5 |
-| [00great_wall](maps/strategy/00great_wall.md) | boss | 5 | 1404 | 4 | v22 2/5 | Chamero 0/23 |
-| [00interlock](maps/strategy/00interlock.md) | normal | 4 | 200 | 4 | v22 5/5 |
-| [00lanes](maps/strategy/00lanes.md) | normal | 5 | 294 | 18 | v22 3/5 |
-| [00lost_world](maps/strategy/00lost_world.md) | rich | 5 | 592 | 3 | v22 5/5 |
-| [00monolith](maps/strategy/00monolith.md) | boss | 5 | 670 | 6 | v22 4/5 |
-| [00oasis](maps/strategy/00oasis.md) | sparse | 4 | 124 | 2 | v22 3/5 |
-| [00packs](maps/strategy/00packs.md) | sparse | 3 | 148 | 6 | v22 5/5 |
-| [00pilgrimage](maps/strategy/00pilgrimage.md) | sparse | 5 | 184 | 4 | v22 5/5 |
-| [00quadrants](maps/strategy/00quadrants.md) | rich | 5 | 763 | 4 | v22 5/5 |
-| [00quarry](maps/strategy/00quarry.md) | sparse | 4 | 114 | 2 | v22 1/5 |
-| [00reverse_spiral](maps/strategy/00reverse_spiral.md) | normal | 4 | 334 | 2 | v22 2/5 |
-| [00ribs](maps/strategy/00ribs.md) | sparse | 5 | 100 | 2 | v22 3/5 |
-| [00road_of_riches](maps/strategy/00road_of_riches.md) | rich | 5 | 1158 | 2 | v22 4/5 |
-| [00rows](maps/strategy/00rows.md) | jackpot | 4 | 584 | 2 | v22 1/4 |
-| [00rushbait_v2](maps/strategy/00rushbait_v2.md) | normal | 4 | 258 | 2 | v22 3/4 |
-| [00split](maps/strategy/00split.md) | boss | 5 | 850 | 3 | v22 4/4 |
-| [00stampede](maps/strategy/00stampede.md) | jackpot | 5 | 160 | 2 | v22 1/5 | Chamero 0/2 |
-| [00swirl](maps/strategy/00swirl.md) | rich | 4 | 638 | 2 | v22 1/4 |
-| [00the_line](maps/strategy/00the_line.md) | jackpot | 4 | 193 | 1 | v22 1/5 | Chamero 0/25 |
-| [00vault](maps/strategy/00vault.md) | jackpot | 4 | 359 | 2 | v22 3/4 |
-| [01big_world](maps/strategy/01big_world.md) | boss | 5 | 832 | 6 | - |
-| [01boss_battle](maps/strategy/01boss_battle.md) | rich | 5 | 1180 | 1 | - | Chamero 0/23 |
-| [01broken_curve](maps/strategy/01broken_curve.md) | boss | 3 | 746 | 4 | - |
-| [01concentrated_wealth](maps/strategy/01concentrated_wealth.md) | sparse | 5 | 177 | 2 | - |
-| [01corridors](maps/strategy/01corridors.md) | jackpot | 5 | 752 | 2 | - |
-| [01elk_arena](maps/strategy/01elk_arena.md) | jackpot | 5 | 72 | 2 | - |
-| [01fracture](maps/strategy/01fracture.md) | rich | 5 | 844 | 3 | - |
-| [01gold_rush](maps/strategy/01gold_rush.md) | jackpot | 3 | 266 | 4 | - |
-| [01hooks](maps/strategy/01hooks.md) | sparse | 4 | 88 | 1 | - |
-| [01islands](maps/strategy/01islands.md) | rich | 5 | 608 | 10 | v22 2/5 |
-| [01shortcut](maps/strategy/01shortcut.md) | rich | 4 | 990 | 2 | - |
-| [01starfish](maps/strategy/01starfish.md) | normal | 5 | 334 | 2 | v22 2/5 | Chamero 0/2 |
-| [01starvation](maps/strategy/01starvation.md) | boss | 5 | 532 | 2 | - |
-| [01the_farm](maps/strategy/01the_farm.md) | rich | 3 | 1096 | 6 | - |
-| [01yellow_brick_road](maps/strategy/01yellow_brick_road.md) | rich | 5 | 472 | 10 | - |
-| [02arena](maps/strategy/02arena.md) | sparse | 3 | 102 | 2 | - |
-| [02crossing](maps/strategy/02crossing.md) | rich | 5 | 458 | 3 | v22 2/5 |
-| [02cuts](maps/strategy/02cuts.md) | boss | 5 | 908 | 4 | - |
-| [02famine](maps/strategy/02famine.md) | jackpot | 5 | 380 | 4 | - |
-| [02fields](maps/strategy/02fields.md) | rich | 5 | 1038 | 3 | - |
-| [02geodes](maps/strategy/02geodes.md) | normal | 5 | 402 | 5 | - |
-| [02gift_wrapping](maps/strategy/02gift_wrapping.md) | normal | 5 | 404 | 4 | - |
-| [02guardians](maps/strategy/02guardians.md) | boss | 4 | 688 | 1 | v22 1/5 |
-| [02harvest](maps/strategy/02harvest.md) | rich | 5 | 534 | 6 | - |
-| [02stalactites](maps/strategy/02stalactites.md) | rich | 4 | 452 | 2 | - |
-| [02tangle](maps/strategy/02tangle.md) | rich | 5 | 600 | 4 | - |
-| [02the_pack](maps/strategy/02the_pack.md) | rich | 3 | 388 | 1 | - |
-| [02the_pond](maps/strategy/02the_pond.md) | sparse | 3 | 148 | 2 | - |
-| [02treasure_box](maps/strategy/02treasure_box.md) | rich | 5 | 449 | 1 | v22 3/5 |
-| [02uncharted_lands](maps/strategy/02uncharted_lands.md) | boss | 5 | 732 | 4 | - |
-| [adgato_gemcombat1](maps/strategy/adgato_gemcombat1.md) | sparse | 3 | 126 | 1 | - |
-| [adgato_gemcombat2](maps/strategy/adgato_gemcombat2.md) | sparse | 4 | 168 | 1 | - |
-| [adgato_gemcombat3](maps/strategy/adgato_gemcombat3.md) | normal | 4 | 308 | 1 | - |
-| [adgato_gemcombat4](maps/strategy/adgato_gemcombat4.md) | normal | 5 | 252 | 1 | - |
-| [adgato_gemcombat5](maps/strategy/adgato_gemcombat5.md) | rich | 5 | 735 | 1 | - |
+| Map | Class | Picks | Gems (abundance) | Gold (abundance) | Altars | Gap gems | Our record |
+| --- | --- | ---: | --- | --- | ---: | ---: | --- |
+| [00ambush](maps/strategy/00ambush.md) | normal | 5 | 270 (normal) | 1340 (normal) | 4 | 10% | v22 4/5 |
+| [00anvil](maps/strategy/00anvil.md) | jackpot | 3 | 258 (normal) | 740 (poor) | 1 | 0% | v22 1/5 | Chamero 0/2 |
+| [00breadcrumbs](maps/strategy/00breadcrumbs.md) | normal | 3 | 154 (normal) | 240 (poor) | 1 | 0% | v22 1/5 |
+| [00collision](maps/strategy/00collision.md) | rich | 3 | 280 (normal) | 1700 (rich) | 2 | 0% | v22 0/5 |
+| [00contest](maps/strategy/00contest.md) | jackpot | 5 | 400 (normal) | 1240 (poor) | 2 | 0% | v22 1/5 |
+| [00corners](maps/strategy/00corners.md) | normal | 5 | 396 (normal) | 2820 (rich) | 5 | 0% | v22 2/5 |
+| [00crater](maps/strategy/00crater.md) | sparse | 5 | 158 (starved) | 450 (poor) | 1 | 0% | v22 3/5 | Chamero 0/23 |
+| [00dunes](maps/strategy/00dunes.md) | sparse | 5 | 238 (starved) | 780 (poor) | 2 | 0% | v22 3/5 |
+| [00eight](maps/strategy/00eight.md) | sparse | 5 | 230 (starved) | 1300 (normal) | 1 | 0% | v22 2/5 |
+| [00elkring](maps/strategy/00elkring.md) | sparse | 5 | 220 (starved) | 1100 (poor) | 2 | 0% | v22 3/5 |
+| [00expanse](maps/strategy/00expanse.md) | normal | 5 | 362 (normal) | 2340 (normal) | 10 | 0% | v22 5/5 | Chamero 1/25 |
+| [00fragment](maps/strategy/00fragment.md) | sparse | 3 | 68 (starved) | 540 (poor) | 2 | 0% | v22 2/5 |
+| [00galaxy](maps/strategy/00galaxy.md) | sparse | 5 | 113 (starved) | 160 (poor) | 2 | 0% | v22 1/5 |
+| [00gem_fields](maps/strategy/00gem_fields.md) | normal | 5 | 364 (normal) | 600 (poor) | 4 | 0% | v22 3/5 |
+| [00gemfight](maps/strategy/00gemfight.md) | normal | 4 | 200 (starved) | 500 (poor) | 2 | 0% | v22 3/5 |
+| [00great_wall](maps/strategy/00great_wall.md) | boss | 5 | 1404 (abundant) | 3120 (rich) | 4 | 0% | v22 2/5 | Chamero 0/23 |
+| [00interlock](maps/strategy/00interlock.md) | normal | 4 | 200 (starved) | 1200 (normal) | 4 | 0% | v22 5/5 |
+| [00lanes](maps/strategy/00lanes.md) | normal | 5 | 294 (normal) | 2460 (normal) | 18 | 0% | v22 3/5 |
+| [00lost_world](maps/strategy/00lost_world.md) | rich | 5 | 592 (rich) | 1440 (normal) | 3 | 0% | v22 5/5 |
+| [00monolith](maps/strategy/00monolith.md) | boss | 5 | 670 (rich) | 1940 (normal) | 6 | 0% | v22 4/5 |
+| [00oasis](maps/strategy/00oasis.md) | sparse | 4 | 124 (starved) | 860 (poor) | 2 | 0% | v22 3/5 |
+| [00packs](maps/strategy/00packs.md) | sparse | 3 | 148 (starved) | 1120 (normal) | 6 | 0% | v22 5/5 |
+| [00pilgrimage](maps/strategy/00pilgrimage.md) | sparse | 5 | 184 (starved) | 1740 (normal) | 4 | 0% | v22 5/5 |
+| [00quadrants](maps/strategy/00quadrants.md) | rich | 5 | 763 (rich) | 1320 (normal) | 4 | 5% | v22 5/5 |
+| [00quarry](maps/strategy/00quarry.md) | sparse | 4 | 114 (starved) | 520 (poor) | 2 | 0% | v22 1/5 |
+| [00reverse_spiral](maps/strategy/00reverse_spiral.md) | normal | 4 | 334 (normal) | 1280 (normal) | 2 | 0% | v22 2/5 |
+| [00ribs](maps/strategy/00ribs.md) | sparse | 5 | 100 (starved) | 380 (poor) | 2 | 0% | v22 3/5 |
+| [00road_of_riches](maps/strategy/00road_of_riches.md) | rich | 5 | 1158 (abundant) | 2800 (rich) | 2 | 0% | v22 4/5 |
+| [00rows](maps/strategy/00rows.md) | jackpot | 4 | 584 (rich) | 1680 (normal) | 2 | 0% | v22 1/4 |
+| [00rushbait_v2](maps/strategy/00rushbait_v2.md) | normal | 4 | 258 (normal) | 1360 (normal) | 2 | 0% | v22 3/4 |
+| [00split](maps/strategy/00split.md) | boss | 5 | 850 (abundant) | 2660 (rich) | 3 | 0% | v22 4/4 |
+| [00stampede](maps/strategy/00stampede.md) | jackpot | 5 | 160 (starved) | 1180 (poor) | 2 | 0% | v22 1/5 | Chamero 0/2 |
+| [00swirl](maps/strategy/00swirl.md) | rich | 4 | 638 (rich) | 3760 (abundant) | 2 | 0% | v22 1/4 |
+| [00the_line](maps/strategy/00the_line.md) | jackpot | 4 | 193 (starved) | 480 (poor) | 1 | 0% | v22 1/5 | Chamero 0/25 |
+| [00vault](maps/strategy/00vault.md) | jackpot | 4 | 359 (normal) | 400 (poor) | 2 | 0% | v22 3/4 |
+| [01big_world](maps/strategy/01big_world.md) | boss | 5 | 832 (abundant) | 2760 (rich) | 6 | 7% | - |
+| [01boss_battle](maps/strategy/01boss_battle.md) | rich | 5 | 1180 (abundant) | 7400 (abundant) | 1 | 0% | - | Chamero 0/23 |
+| [01broken_curve](maps/strategy/01broken_curve.md) | boss | 3 | 746 (abundant) | 2520 (rich) | 4 | 0% | - |
+| [01concentrated_wealth](maps/strategy/01concentrated_wealth.md) | sparse | 5 | 177 (starved) | 1110 (poor) | 2 | 0% | - |
+| [01corridors](maps/strategy/01corridors.md) | jackpot | 5 | 752 (rich) | 2960 (rich) | 2 | 0% | - |
+| [01elk_arena](maps/strategy/01elk_arena.md) | jackpot | 5 | 72 (starved) | 1260 (normal) | 2 | 0% | - |
+| [01fracture](maps/strategy/01fracture.md) | rich | 5 | 844 (abundant) | 3320 (rich) | 3 | 3% | - |
+| [01gold_rush](maps/strategy/01gold_rush.md) | jackpot | 3 | 266 (normal) | 1100 (normal) | 4 | 0% | - |
+| [01hooks](maps/strategy/01hooks.md) | sparse | 4 | 88 (starved) | 760 (poor) | 1 | 0% | - |
+| [01islands](maps/strategy/01islands.md) | rich | 5 | 608 (rich) | 3860 (rich) | 10 | 61% | v22 2/5 |
+| [01shortcut](maps/strategy/01shortcut.md) | rich | 4 | 990 (abundant) | 3040 (rich) | 2 | 2% | - |
+| [01starfish](maps/strategy/01starfish.md) | normal | 5 | 334 (normal) | 1860 (normal) | 2 | 0% | v22 2/5 | Chamero 0/2 |
+| [01starvation](maps/strategy/01starvation.md) | boss | 5 | 532 (rich) | 1560 (normal) | 2 | 0% | - |
+| [01the_farm](maps/strategy/01the_farm.md) | rich | 3 | 1096 (abundant) | 4540 (abundant) | 6 | 0% | - |
+| [01yellow_brick_road](maps/strategy/01yellow_brick_road.md) | rich | 5 | 472 (normal) | 4600 (abundant) | 10 | 0% | - |
+| [02arena](maps/strategy/02arena.md) | sparse | 3 | 102 (starved) | 660 (poor) | 2 | 0% | - |
+| [02crossing](maps/strategy/02crossing.md) | rich | 5 | 458 (normal) | 1080 (poor) | 3 | 0% | v22 2/5 |
+| [02cuts](maps/strategy/02cuts.md) | boss | 5 | 908 (abundant) | 2840 (rich) | 4 | 0% | - |
+| [02famine](maps/strategy/02famine.md) | jackpot | 5 | 380 (normal) | 1160 (poor) | 4 | 0% | - |
+| [02fields](maps/strategy/02fields.md) | rich | 5 | 1038 (abundant) | 2480 (normal) | 3 | 0% | - |
+| [02geodes](maps/strategy/02geodes.md) | normal | 5 | 402 (normal) | 1060 (poor) | 5 | 0% | - |
+| [02gift_wrapping](maps/strategy/02gift_wrapping.md) | normal | 5 | 404 (normal) | 3020 (rich) | 4 | 0% | - |
+| [02guardians](maps/strategy/02guardians.md) | boss | 4 | 688 (abundant) | 2100 (rich) | 1 | 0% | v22 1/5 |
+| [02harvest](maps/strategy/02harvest.md) | rich | 5 | 534 (rich) | 2260 (normal) | 6 | 0% | - |
+| [02stalactites](maps/strategy/02stalactites.md) | rich | 4 | 452 (rich) | 960 (poor) | 2 | 0% | - |
+| [02tangle](maps/strategy/02tangle.md) | rich | 5 | 600 (rich) | 2400 (normal) | 4 | 0% | - |
+| [02the_pack](maps/strategy/02the_pack.md) | rich | 3 | 388 (rich) | 3480 (abundant) | 1 | 0% | - |
+| [02the_pond](maps/strategy/02the_pond.md) | sparse | 3 | 148 (starved) | 1020 (normal) | 2 | 47% | - |
+| [02treasure_box](maps/strategy/02treasure_box.md) | rich | 5 | 449 (normal) | 3070 (rich) | 1 | 0% | v22 3/5 |
+| [02uncharted_lands](maps/strategy/02uncharted_lands.md) | boss | 5 | 732 (rich) | 1660 (normal) | 4 | 0% | - |
+| [adgato_gemcombat1](maps/strategy/adgato_gemcombat1.md) | sparse | 3 | 126 (starved) | 0 (poor) | 1 | 0% | - |
+| [adgato_gemcombat2](maps/strategy/adgato_gemcombat2.md) | sparse | 4 | 168 (starved) | 0 (poor) | 1 | 0% | - |
+| [adgato_gemcombat3](maps/strategy/adgato_gemcombat3.md) | normal | 4 | 308 (normal) | 0 (poor) | 1 | 0% | - |
+| [adgato_gemcombat4](maps/strategy/adgato_gemcombat4.md) | normal | 5 | 252 (starved) | 0 (poor) | 1 | 17% | - |
+| [adgato_gemcombat5](maps/strategy/adgato_gemcombat5.md) | rich | 5 | 735 (rich) | 0 (poor) | 1 | 9% | - |

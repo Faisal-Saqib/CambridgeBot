@@ -4,9 +4,10 @@
 
 ## Map facts [derived]
 
-- Gems 472 (94/champ), gold 4600 (920/champ), camp HP per gem 196.
+- Gems 472 (94/champ → **gem-normal**), gold 4600 (920/champ → **gold-abundant**), camp HP per gem 196.
 - Gem concentration: top 10%, center 0%, monolith-held 0%, harmless camps 0%.
 - Camp density 393.3; brawl flag: False.
+- **Unreachable on foot:** 0/472 static gems (0%) sit outside our spawn's walkable component [derived] — reachable only by a dash (if the gap is short) or a teleport crystal.
 
 ## What top-20 teams did here [measured]
 
@@ -40,7 +41,7 @@
 - Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
 - Marcella (carry): Bruiser Focus shards/emblems as main stack; add Power Focus once Bruiser caps.
 - Tavi (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
-- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 8.2 consumables/game here); TP crystal(s) REQUIRED — this map has terrain-separated camps.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 8.2 consumables/game here); TP crystal(s) for carrier escapes.
 
 ### Traversal / positioning
 

@@ -4,9 +4,10 @@
 
 ## Map facts [derived]
 
-- Gems 252 (50/champ), gold 0 (0/champ), camp HP per gem 17.
+- Gems 252 (50/champ → **gem-starved**), gold 0 (0/champ → **gold-poor**), camp HP per gem 17.
 - Gem concentration: top 17%, center 0%, monolith-held 0%, harmless camps 100%.
 - Camp density 100.8; brawl flag: False.
+- **Unreachable on foot:** 42/252 static gems (17%) sit outside our spawn's walkable component [derived] — reachable only by a dash (if the gap is short) or a teleport crystal.
 
 ## What top-20 teams did here [measured]
 
@@ -31,6 +32,7 @@
 ### Camp targets
 
 - 50 gems/champ across 8 groups [derived]. Spread-farm: each champ claims a camp cluster, top teams' farm spread here was 12.8 tiles.
+- **17% of gems are gap-separated** [derived]: assign the disconnected component to a dash-capable champion (short gaps) and/or buy teleport crystals early — a normal walker will never reach them. One dedicated 'island hopper' should claim the whole disconnected region; everyone else ignores it.
 - 100% of camps are harmless [derived] — free farming; take them first while the enemy fights dangerous camps.
 
 ### Items / shards / emblems
@@ -41,7 +43,7 @@
 - Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
 - Marcella (carry): Bruiser Focus shards/emblems as main stack; add Power Focus once Bruiser caps.
 - Tavi (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
-- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 3.5 consumables/game here); TP crystal(s) for carrier escapes.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 3.5 consumables/game here); TP crystal(s) REQUIRED — 17% of gems are gap-separated (crystal or dash access only).
 
 ### Traversal / positioning
 

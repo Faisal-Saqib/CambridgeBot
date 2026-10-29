@@ -4,9 +4,10 @@
 
 ## Map facts [derived]
 
-- Gems 114 (28/champ), gold 520 (130/champ), camp HP per gem 81.
+- Gems 114 (28/champ → **gem-starved**), gold 520 (130/champ → **gold-poor**), camp HP per gem 81.
 - Gem concentration: top 40%, center 68%, monolith-held 0%, harmless camps 25%.
 - Camp density 112.3; brawl flag: False.
+- **Unreachable on foot:** 0/114 static gems (0%) sit outside our spawn's walkable component [derived] — reachable only by a dash (if the gap is short) or a teleport crystal.
 
 ## What top-20 teams did here [measured]
 

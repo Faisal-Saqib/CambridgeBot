@@ -4,9 +4,10 @@
 
 ## Map facts [derived]
 
-- Gems 1096 (365/champ), gold 4540 (1513/champ), camp HP per gem 130.
+- Gems 1096 (365/champ → **gem-abundant**), gold 4540 (1513/champ → **gold-abundant**), camp HP per gem 130.
 - Gem concentration: top 19%, center 10%, monolith-held 38%, harmless camps 3%.
 - Camp density 548.0; brawl flag: False.
+- **Unreachable on foot:** 0/1096 static gems (0%) sit outside our spawn's walkable component [derived] — reachable only by a dash (if the gap is short) or a teleport crystal.
 
 ## What top-20 teams did here [measured]
 
@@ -38,7 +39,7 @@
 - Vesper Vale (carry): Bruiser Strength shards/emblems as main stack; add Power Strength once Bruiser caps.
 - Vendetta (support): Bruiser Strength shards/emblems as main stack; Durability Health for tankiness.
 - Heart of Ruin (support): Bruiser Focus shards/emblems as main stack; Durability Health for tankiness.
-- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 8.5 consumables/game here); TP crystal(s) REQUIRED — this map has terrain-separated camps.
+- Consumables: Altar Lock on the altar nearest our farm (top teams averaged 8.5 consumables/game here); TP crystal(s) for carrier escapes.
 
 ### Traversal / positioning
 

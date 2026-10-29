@@ -18,6 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 MAPS = ROOT / "bots" / "Chamero" / "maps" / "maps.json"
+SHAPES = ROOT / "matches" / "map_shapes.json"
 CENSUS = ROOT / "matches" / "top20-scout" / "census.json"
 OURS = ROOT / "matches" / "map-campaign-v22-20261028" / "results"
 CHAM = ROOT / "matches" / "chamero-analysis.json"
@@ -48,8 +49,15 @@ def norm(n):
     """maps.json uses dashes, match data uses underscores."""
     return n.replace("-", "_") if n else n
 
+def abundance(per_champ, thresholds, labels):
+    for t, lab in zip(thresholds, labels):
+        if per_champ <= t:
+            return lab
+    return labels[-1]
+
 def main():
     maps = {norm(m["map"]): m for m in load(MAPS)}
+    shapes = {norm(k): v for k, v in load(SHAPES).items()} if SHAPES.exists() else {}
     census = load(CENSUS)
     games = census["games_detail"]
     by_map = defaultdict(list)
@@ -75,11 +83,8 @@ def main():
              "Labels: **[measured]** = observed in downloaded match data, "
              "**[derived]** = computed from map facts, **[hypothesis]** = "
              "proposal, not validated.", "",
-             "| Map | Class | Picks | Gems | Altars | Our record |", "",
-             "| --- | --- | --- | --- | --- | --- |"]
-    index[6] = ""  # fix header rows
-    index[6:8] = ["| Map | Class | Picks | Gems | Altars | Our record |",
-                  "| --- | --- | ---: | ---: | ---: | --- |"]
+             "| Map | Class | Picks | Gems (abundance) | Gold (abundance) | Altars | Gap gems | Our record |",
+             "| --- | --- | ---: | --- | --- | ---: | ---: | --- |"]
 
     for name in sorted(maps):
         f = maps[name]
@@ -92,11 +97,24 @@ def main():
         L.append("")
         L.append("## Map facts [derived]")
         L.append("")
-        L.append(f"- Gems {f['gems']} ({f['gems_per_champ']}/champ), gold {f['gold']} "
-                 f"({f['gold_per_champ']}/champ), camp HP per gem {f['hp_per_gem']}.")
+        gem_ab = abundance(f["gems_per_champ"], [50, 100, 160],
+                           ["gem-starved", "gem-normal", "gem-rich", "gem-abundant"])
+        gold_ab = abundance(f["gold_per_champ"], [250, 500, 900],
+                            ["gold-poor", "gold-normal", "gold-rich", "gold-abundant"])
+        sh = shapes.get(name, {})
+        unreach = sh.get("unreach", 0)
+        unreach_frac = (unreach / sh["total"]) if sh.get("total") else 0
+        L.append(f"- Gems {f['gems']} ({f['gems_per_champ']}/champ → **{gem_ab}**), "
+                 f"gold {f['gold']} ({f['gold_per_champ']}/champ → **{gold_ab}**), "
+                 f"camp HP per gem {f['hp_per_gem']}.")
         L.append(f"- Gem concentration: top {f['top']:.0%}, center {f['center']:.0%}, "
                  f"monolith-held {f['mono']:.0%}, harmless camps {f['harmless']:.0%}.")
         L.append(f"- Camp density {f['density']}; brawl flag: {f['brawl']}.")
+        if sh.get("total"):
+            L.append(f"- **Unreachable on foot:** {unreach}/{sh['total']} static gems "
+                     f"({unreach_frac:.0%}) sit outside our spawn's walkable "
+                     f"component [derived] — reachable only by a dash (if the gap "
+                     f"is short) or a teleport crystal.")
         L.append("")
 
         # top-20 behaviour on this map
@@ -223,6 +241,13 @@ def main():
             L.append(f"- {f['top']:.0%} of gems sit in one top region [derived] — "
                      f"treat it as the jackpot objective even if the map is "
                      f"otherwise spread out.")
+        if unreach_frac >= 0.05:
+            L.append(f"- **{unreach_frac:.0%} of gems are gap-separated** "
+                     f"[derived]: assign the disconnected component to a "
+                     f"dash-capable champion (short gaps) and/or buy teleport "
+                     f"crystals early — a normal walker will never reach them. "
+                     f"One dedicated 'island hopper' should claim the whole "
+                     f"disconnected region; everyone else ignores it.")
         if f["mono"] >= 0.25 and f["altars"] <= 2:
             L.append(f"- **Gated altar warning**: {f['mono']:.0%} of gems are "
                      f"monolith-held and only {f['altars']} altar(s) exist "
@@ -252,7 +277,7 @@ def main():
         L.append("- Consumables: Altar Lock on the altar nearest our farm "
                  f"(top teams averaged {fmt(mean([sum(g['consumables'].values()) for g in wins or gs]),1)} "
                  f"consumables/game here); TP crystal(s) "
-                 f"{'REQUIRED — this map has terrain-separated camps' if cls in ('rich',) and f['altars']>=4 else 'for carrier escapes'}.")
+                 f"{'REQUIRED — ' + f'{unreach_frac:.0%}' + ' of gems are gap-separated (crystal or dash access only)' if unreach_frac >= 0.05 else 'for carrier escapes'}.")
         L.append("")
 
         # traversal
@@ -287,7 +312,9 @@ def main():
             w = sum(1 for r in cm if r["won"])
             rec_s += f" | Chamero {w}/{len(cm)}"
         index.append(f"| [{name}](maps/strategy/{name}.md) | {cls} | {f['picks']} | "
-                     f"{f['gems']} | {f['altars']} | {rec_s} |")
+                     f"{f['gems']} ({gem_ab.replace('gem-','')}) | "
+                     f"{f['gold']} ({gold_ab.replace('gold-','')}) | "
+                     f"{f['altars']} | {unreach_frac:.0%} | {rec_s} |")
 
     INDEX.write_text("\n".join(index) + "\n", encoding="utf-8")
     print(f"wrote {len(maps)} map docs + index")
